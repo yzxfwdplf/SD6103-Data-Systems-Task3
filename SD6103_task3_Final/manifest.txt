@@ -1,0 +1,8 @@
+raw_transactions=989379
+transactions=976441
+towns=26
+flats=9852
+hawkers=129
+nearby=43036
+latest_month=2026-10-01
+package_version=2026-10-24-benchmark-fix-1
