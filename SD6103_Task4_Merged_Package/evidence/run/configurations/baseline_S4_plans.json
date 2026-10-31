@@ -1,0 +1,935 @@
+[
+  {
+    "query_no": 6,
+    "execution_ms": 690.939,
+    "nodes": [
+      {
+        "Node Type": "Aggregate",
+        "Actual Rows": 154,
+        "Actual Loops": 1,
+        "Shared Hit Blocks": 1640,
+        "Shared Read Blocks": 0,
+        "Temp Read Blocks": 961,
+        "Temp Written Blocks": 963
+      },
+      {
+        "Node Type": "Sort",
+        "Actual Rows": 156747,
+        "Actual Loops": 1,
+        "Sort Method": "external merge",
+        "Sort Space Used": 7688,
+        "Sort Space Type": "Disk",
+        "Shared Hit Blocks": 1640,
+        "Shared Read Blocks": 0,
+        "Temp Read Blocks": 961,
+        "Temp Written Blocks": 963
+      },
+      {
+        "Node Type": "Hash Join",
+        "Actual Rows": 156747,
+        "Actual Loops": 1,
+        "Shared Hit Blocks": 1640,
+        "Shared Read Blocks": 0,
+        "Temp Read Blocks": 0,
+        "Temp Written Blocks": 0
+      },
+      {
+        "Node Type": "Seq Scan",
+        "Relation Name": "resale_transaction",
+        "Actual Rows": 63007,
+        "Actual Loops": 1,
+        "Rows Removed by Filter": 0,
+        "Shared Hit Blocks": 1276,
+        "Shared Read Blocks": 0,
+        "Temp Read Blocks": 0,
+        "Temp Written Blocks": 0
+      },
+      {
+        "Node Type": "Hash",
+        "Actual Rows": 23195,
+        "Actual Loops": 1,
+        "Shared Hit Blocks": 364,
+        "Shared Read Blocks": 0,
+        "Temp Read Blocks": 0,
+        "Temp Written Blocks": 0
+      },
+      {
+        "Node Type": "Hash Join",
+        "Actual Rows": 23195,
+        "Actual Loops": 1,
+        "Shared Hit Blocks": 364,
+        "Shared Read Blocks": 0,
+        "Temp Read Blocks": 0,
+        "Temp Written Blocks": 0
+      },
+      {
+        "Node Type": "Hash Join",
+        "Actual Rows": 23195,
+        "Actual Loops": 1,
+        "Shared Hit Blocks": 363,
+        "Shared Read Blocks": 0,
+        "Temp Read Blocks": 0,
+        "Temp Written Blocks": 0
+      },
+      {
+        "Node Type": "Aggregate",
+        "Actual Rows": 23195,
+        "Actual Loops": 1,
+        "Shared Hit Blocks": 262,
+        "Shared Read Blocks": 0,
+        "Temp Read Blocks": 0,
+        "Temp Written Blocks": 0
+      },
+      {
+        "Node Type": "Hash Join",
+        "Actual Rows": 40354,
+        "Actual Loops": 1,
+        "Shared Hit Blocks": 262,
+        "Shared Read Blocks": 0,
+        "Temp Read Blocks": 0,
+        "Temp Written Blocks": 0
+      },
+      {
+        "Node Type": "Nested Loop",
+        "Actual Rows": 40354,
+        "Actual Loops": 1,
+        "Shared Hit Blocks": 259,
+        "Shared Read Blocks": 0,
+        "Temp Read Blocks": 0,
+        "Temp Written Blocks": 0
+      },
+      {
+        "Node Type": "Seq Scan",
+        "Relation Name": "nearby",
+        "Actual Rows": 40354,
+        "Actual Loops": 1,
+        "Shared Hit Blocks": 258,
+        "Shared Read Blocks": 0,
+        "Temp Read Blocks": 0,
+        "Temp Written Blocks": 0
+      },
+      {
+        "Node Type": "Materialize",
+        "Actual Rows": 3,
+        "Actual Loops": 40354,
+        "Shared Hit Blocks": 1,
+        "Shared Read Blocks": 0,
+        "Temp Read Blocks": 0,
+        "Temp Written Blocks": 0
+      },
+      {
+        "Node Type": "Seq Scan",
+        "Relation Name": "proximity_level",
+        "Actual Rows": 3,
+        "Actual Loops": 1,
+        "Shared Hit Blocks": 1,
+        "Shared Read Blocks": 0,
+        "Temp Read Blocks": 0,
+        "Temp Written Blocks": 0
+      },
+      {
+        "Node Type": "Hash",
+        "Actual Rows": 129,
+        "Actual Loops": 1,
+        "Shared Hit Blocks": 3,
+        "Shared Read Blocks": 0,
+        "Temp Read Blocks": 0,
+        "Temp Written Blocks": 0
+      },
+      {
+        "Node Type": "Seq Scan",
+        "Relation Name": "hawker_centre",
+        "Actual Rows": 129,
+        "Actual Loops": 1,
+        "Shared Hit Blocks": 3,
+        "Shared Read Blocks": 0,
+        "Temp Read Blocks": 0,
+        "Temp Written Blocks": 0
+      },
+      {
+        "Node Type": "Hash",
+        "Actual Rows": 9385,
+        "Actual Loops": 1,
+        "Shared Hit Blocks": 101,
+        "Shared Read Blocks": 0,
+        "Temp Read Blocks": 0,
+        "Temp Written Blocks": 0
+      },
+      {
+        "Node Type": "Seq Scan",
+        "Relation Name": "hdb_flat",
+        "Actual Rows": 9385,
+        "Actual Loops": 1,
+        "Shared Hit Blocks": 101,
+        "Shared Read Blocks": 0,
+        "Temp Read Blocks": 0,
+        "Temp Written Blocks": 0
+      },
+      {
+        "Node Type": "Hash",
+        "Actual Rows": 26,
+        "Actual Loops": 1,
+        "Shared Hit Blocks": 1,
+        "Shared Read Blocks": 0,
+        "Temp Read Blocks": 0,
+        "Temp Written Blocks": 0
+      },
+      {
+        "Node Type": "Seq Scan",
+        "Relation Name": "town",
+        "Actual Rows": 26,
+        "Actual Loops": 1,
+        "Shared Hit Blocks": 1,
+        "Shared Read Blocks": 0,
+        "Temp Read Blocks": 0,
+        "Temp Written Blocks": 0
+      }
+    ]
+  },
+  {
+    "query_no": 1,
+    "execution_ms": 54.429,
+    "nodes": [
+      {
+        "Node Type": "Sort",
+        "Actual Rows": 52,
+        "Actual Loops": 1,
+        "Sort Method": "quicksort",
+        "Sort Space Used": 19,
+        "Sort Space Type": "Memory",
+        "Shared Hit Blocks": 1378,
+        "Shared Read Blocks": 0,
+        "Temp Read Blocks": 0,
+        "Temp Written Blocks": 0
+      },
+      {
+        "Node Type": "Aggregate",
+        "Actual Rows": 52,
+        "Actual Loops": 1,
+        "Shared Hit Blocks": 1378,
+        "Shared Read Blocks": 0,
+        "Temp Read Blocks": 0,
+        "Temp Written Blocks": 0
+      },
+      {
+        "Node Type": "Hash Join",
+        "Actual Rows": 41789,
+        "Actual Loops": 1,
+        "Shared Hit Blocks": 1378,
+        "Shared Read Blocks": 0,
+        "Temp Read Blocks": 0,
+        "Temp Written Blocks": 0
+      },
+      {
+        "Node Type": "Hash Join",
+        "Actual Rows": 41789,
+        "Actual Loops": 1,
+        "Shared Hit Blocks": 1377,
+        "Shared Read Blocks": 0,
+        "Temp Read Blocks": 0,
+        "Temp Written Blocks": 0
+      },
+      {
+        "Node Type": "Seq Scan",
+        "Relation Name": "resale_transaction",
+        "Actual Rows": 41789,
+        "Actual Loops": 1,
+        "Rows Removed by Filter": 21218,
+        "Shared Hit Blocks": 1276,
+        "Shared Read Blocks": 0,
+        "Temp Read Blocks": 0,
+        "Temp Written Blocks": 0
+      },
+      {
+        "Node Type": "Hash",
+        "Actual Rows": 9385,
+        "Actual Loops": 1,
+        "Shared Hit Blocks": 101,
+        "Shared Read Blocks": 0,
+        "Temp Read Blocks": 0,
+        "Temp Written Blocks": 0
+      },
+      {
+        "Node Type": "Seq Scan",
+        "Relation Name": "hdb_flat",
+        "Actual Rows": 9385,
+        "Actual Loops": 1,
+        "Shared Hit Blocks": 101,
+        "Shared Read Blocks": 0,
+        "Temp Read Blocks": 0,
+        "Temp Written Blocks": 0
+      },
+      {
+        "Node Type": "Hash",
+        "Actual Rows": 26,
+        "Actual Loops": 1,
+        "Shared Hit Blocks": 1,
+        "Shared Read Blocks": 0,
+        "Temp Read Blocks": 0,
+        "Temp Written Blocks": 0
+      },
+      {
+        "Node Type": "Seq Scan",
+        "Relation Name": "town",
+        "Actual Rows": 26,
+        "Actual Loops": 1,
+        "Shared Hit Blocks": 1,
+        "Shared Read Blocks": 0,
+        "Temp Read Blocks": 0,
+        "Temp Written Blocks": 0
+      }
+    ]
+  },
+  {
+    "query_no": 2,
+    "execution_ms": 111.06,
+    "nodes": [
+      {
+        "Node Type": "Aggregate",
+        "Actual Rows": 62,
+        "Actual Loops": 1,
+        "Shared Hit Blocks": 1378,
+        "Shared Read Blocks": 0,
+        "Temp Read Blocks": 0,
+        "Temp Written Blocks": 0
+      },
+      {
+        "Node Type": "Sort",
+        "Actual Rows": 63007,
+        "Actual Loops": 1,
+        "Sort Method": "quicksort",
+        "Sort Space Used": 4021,
+        "Sort Space Type": "Memory",
+        "Shared Hit Blocks": 1378,
+        "Shared Read Blocks": 0,
+        "Temp Read Blocks": 0,
+        "Temp Written Blocks": 0
+      },
+      {
+        "Node Type": "Hash Join",
+        "Actual Rows": 63007,
+        "Actual Loops": 1,
+        "Shared Hit Blocks": 1378,
+        "Shared Read Blocks": 0,
+        "Temp Read Blocks": 0,
+        "Temp Written Blocks": 0
+      },
+      {
+        "Node Type": "Hash Join",
+        "Actual Rows": 63007,
+        "Actual Loops": 1,
+        "Shared Hit Blocks": 1377,
+        "Shared Read Blocks": 0,
+        "Temp Read Blocks": 0,
+        "Temp Written Blocks": 0
+      },
+      {
+        "Node Type": "Seq Scan",
+        "Relation Name": "resale_transaction",
+        "Actual Rows": 63007,
+        "Actual Loops": 1,
+        "Rows Removed by Filter": 0,
+        "Shared Hit Blocks": 1276,
+        "Shared Read Blocks": 0,
+        "Temp Read Blocks": 0,
+        "Temp Written Blocks": 0
+      },
+      {
+        "Node Type": "Hash",
+        "Actual Rows": 9385,
+        "Actual Loops": 1,
+        "Shared Hit Blocks": 101,
+        "Shared Read Blocks": 0,
+        "Temp Read Blocks": 0,
+        "Temp Written Blocks": 0
+      },
+      {
+        "Node Type": "Seq Scan",
+        "Relation Name": "hdb_flat",
+        "Actual Rows": 9385,
+        "Actual Loops": 1,
+        "Shared Hit Blocks": 101,
+        "Shared Read Blocks": 0,
+        "Temp Read Blocks": 0,
+        "Temp Written Blocks": 0
+      },
+      {
+        "Node Type": "Hash",
+        "Actual Rows": 26,
+        "Actual Loops": 1,
+        "Shared Hit Blocks": 1,
+        "Shared Read Blocks": 0,
+        "Temp Read Blocks": 0,
+        "Temp Written Blocks": 0
+      },
+      {
+        "Node Type": "Seq Scan",
+        "Relation Name": "town",
+        "Actual Rows": 26,
+        "Actual Loops": 1,
+        "Shared Hit Blocks": 1,
+        "Shared Read Blocks": 0,
+        "Temp Read Blocks": 0,
+        "Temp Written Blocks": 0
+      }
+    ]
+  },
+  {
+    "query_no": 3,
+    "execution_ms": 37.417,
+    "nodes": [
+      {
+        "Node Type": "Aggregate",
+        "Actual Rows": 30,
+        "Actual Loops": 1,
+        "Shared Hit Blocks": 2755,
+        "Shared Read Blocks": 0,
+        "Temp Read Blocks": 0,
+        "Temp Written Blocks": 0
+      },
+      {
+        "Node Type": "Sort",
+        "Actual Rows": 6472,
+        "Actual Loops": 1,
+        "Sort Method": "quicksort",
+        "Sort Space Used": 473,
+        "Sort Space Type": "Memory",
+        "Shared Hit Blocks": 2755,
+        "Shared Read Blocks": 0,
+        "Temp Read Blocks": 0,
+        "Temp Written Blocks": 0
+      },
+      {
+        "Node Type": "Hash Join",
+        "Actual Rows": 6472,
+        "Actual Loops": 1,
+        "Shared Hit Blocks": 2755,
+        "Shared Read Blocks": 0,
+        "Temp Read Blocks": 0,
+        "Temp Written Blocks": 0
+      },
+      {
+        "Node Type": "Seq Scan",
+        "Relation Name": "resale_transaction",
+        "Actual Rows": 15484,
+        "Actual Loops": 1,
+        "Rows Removed by Filter": 47523,
+        "Shared Hit Blocks": 1276,
+        "Shared Read Blocks": 0,
+        "Temp Read Blocks": 0,
+        "Temp Written Blocks": 0
+      },
+      {
+        "Node Type": "Hash",
+        "Actual Rows": 4037,
+        "Actual Loops": 1,
+        "Shared Hit Blocks": 1479,
+        "Shared Read Blocks": 0,
+        "Temp Read Blocks": 0,
+        "Temp Written Blocks": 0
+      },
+      {
+        "Node Type": "Hash Join",
+        "Actual Rows": 4037,
+        "Actual Loops": 1,
+        "Shared Hit Blocks": 1479,
+        "Shared Read Blocks": 0,
+        "Temp Read Blocks": 0,
+        "Temp Written Blocks": 0
+      },
+      {
+        "Node Type": "Hash Join",
+        "Actual Rows": 4037,
+        "Actual Loops": 1,
+        "Shared Hit Blocks": 1478,
+        "Shared Read Blocks": 0,
+        "Temp Read Blocks": 0,
+        "Temp Written Blocks": 0
+      },
+      {
+        "Node Type": "Seq Scan",
+        "Relation Name": "hdb_flat",
+        "Actual Rows": 9385,
+        "Actual Loops": 1,
+        "Shared Hit Blocks": 101,
+        "Shared Read Blocks": 0,
+        "Temp Read Blocks": 0,
+        "Temp Written Blocks": 0
+      },
+      {
+        "Node Type": "Hash",
+        "Actual Rows": 10,
+        "Actual Loops": 1,
+        "Shared Hit Blocks": 1377,
+        "Shared Read Blocks": 0,
+        "Temp Read Blocks": 0,
+        "Temp Written Blocks": 0
+      },
+      {
+        "Node Type": "Subquery Scan",
+        "Actual Rows": 10,
+        "Actual Loops": 1,
+        "Shared Hit Blocks": 1377,
+        "Shared Read Blocks": 0,
+        "Temp Read Blocks": 0,
+        "Temp Written Blocks": 0
+      },
+      {
+        "Node Type": "Limit",
+        "Actual Rows": 10,
+        "Actual Loops": 1,
+        "Shared Hit Blocks": 1377,
+        "Shared Read Blocks": 0,
+        "Temp Read Blocks": 0,
+        "Temp Written Blocks": 0
+      },
+      {
+        "Node Type": "Sort",
+        "Actual Rows": 10,
+        "Actual Loops": 1,
+        "Sort Method": "top-N heapsort",
+        "Sort Space Used": 18,
+        "Sort Space Type": "Memory",
+        "Shared Hit Blocks": 1377,
+        "Shared Read Blocks": 0,
+        "Temp Read Blocks": 0,
+        "Temp Written Blocks": 0
+      },
+      {
+        "Node Type": "Aggregate",
+        "Actual Rows": 26,
+        "Actual Loops": 1,
+        "Shared Hit Blocks": 1377,
+        "Shared Read Blocks": 0,
+        "Temp Read Blocks": 0,
+        "Temp Written Blocks": 0
+      },
+      {
+        "Node Type": "Hash Join",
+        "Actual Rows": 15484,
+        "Actual Loops": 1,
+        "Shared Hit Blocks": 1377,
+        "Shared Read Blocks": 0,
+        "Temp Read Blocks": 0,
+        "Temp Written Blocks": 0
+      },
+      {
+        "Node Type": "Seq Scan",
+        "Relation Name": "resale_transaction",
+        "Actual Rows": 15484,
+        "Actual Loops": 1,
+        "Rows Removed by Filter": 47523,
+        "Shared Hit Blocks": 1276,
+        "Shared Read Blocks": 0,
+        "Temp Read Blocks": 0,
+        "Temp Written Blocks": 0
+      },
+      {
+        "Node Type": "Hash",
+        "Actual Rows": 9385,
+        "Actual Loops": 1,
+        "Shared Hit Blocks": 101,
+        "Shared Read Blocks": 0,
+        "Temp Read Blocks": 0,
+        "Temp Written Blocks": 0
+      },
+      {
+        "Node Type": "Seq Scan",
+        "Relation Name": "hdb_flat",
+        "Actual Rows": 9385,
+        "Actual Loops": 1,
+        "Shared Hit Blocks": 101,
+        "Shared Read Blocks": 0,
+        "Temp Read Blocks": 0,
+        "Temp Written Blocks": 0
+      },
+      {
+        "Node Type": "Hash",
+        "Actual Rows": 26,
+        "Actual Loops": 1,
+        "Shared Hit Blocks": 1,
+        "Shared Read Blocks": 0,
+        "Temp Read Blocks": 0,
+        "Temp Written Blocks": 0
+      },
+      {
+        "Node Type": "Seq Scan",
+        "Relation Name": "town",
+        "Actual Rows": 26,
+        "Actual Loops": 1,
+        "Shared Hit Blocks": 1,
+        "Shared Read Blocks": 0,
+        "Temp Read Blocks": 0,
+        "Temp Written Blocks": 0
+      }
+    ]
+  },
+  {
+    "query_no": 4,
+    "execution_ms": 93.244,
+    "nodes": [
+      {
+        "Node Type": "Sort",
+        "Actual Rows": 72,
+        "Actual Loops": 1,
+        "Sort Method": "quicksort",
+        "Sort Space Used": 21,
+        "Sort Space Type": "Memory",
+        "Shared Hit Blocks": 1793,
+        "Shared Read Blocks": 0,
+        "Temp Read Blocks": 0,
+        "Temp Written Blocks": 0
+      },
+      {
+        "Node Type": "Subquery Scan",
+        "Actual Rows": 72,
+        "Actual Loops": 1,
+        "Shared Hit Blocks": 1793,
+        "Shared Read Blocks": 0,
+        "Temp Read Blocks": 0,
+        "Temp Written Blocks": 0
+      },
+      {
+        "Node Type": "Aggregate",
+        "Actual Rows": 72,
+        "Actual Loops": 1,
+        "Rows Removed by Filter": 58,
+        "Shared Hit Blocks": 1793,
+        "Shared Read Blocks": 0,
+        "Temp Read Blocks": 0,
+        "Temp Written Blocks": 0
+      },
+      {
+        "Node Type": "Hash Join",
+        "Actual Rows": 61925,
+        "Actual Loops": 1,
+        "Shared Hit Blocks": 1793,
+        "Shared Read Blocks": 0,
+        "Temp Read Blocks": 0,
+        "Temp Written Blocks": 0
+      },
+      {
+        "Node Type": "Seq Scan",
+        "Relation Name": "resale_transaction",
+        "Actual Rows": 63007,
+        "Actual Loops": 1,
+        "Rows Removed by Filter": 0,
+        "Shared Hit Blocks": 1276,
+        "Shared Read Blocks": 0,
+        "Temp Read Blocks": 0,
+        "Temp Written Blocks": 0
+      },
+      {
+        "Node Type": "Hash",
+        "Actual Rows": 9225,
+        "Actual Loops": 1,
+        "Shared Hit Blocks": 517,
+        "Shared Read Blocks": 0,
+        "Temp Read Blocks": 0,
+        "Temp Written Blocks": 0
+      },
+      {
+        "Node Type": "Hash Join",
+        "Actual Rows": 9225,
+        "Actual Loops": 1,
+        "Shared Hit Blocks": 517,
+        "Shared Read Blocks": 0,
+        "Temp Read Blocks": 0,
+        "Temp Written Blocks": 0
+      },
+      {
+        "Node Type": "Hash Join",
+        "Actual Rows": 9225,
+        "Actual Loops": 1,
+        "Shared Hit Blocks": 516,
+        "Shared Read Blocks": 0,
+        "Temp Read Blocks": 0,
+        "Temp Written Blocks": 0
+      },
+      {
+        "Node Type": "Nested Loop",
+        "Actual Rows": 9225,
+        "Actual Loops": 1,
+        "Shared Hit Blocks": 415,
+        "Shared Read Blocks": 0,
+        "Temp Read Blocks": 0,
+        "Temp Written Blocks": 0
+      },
+      {
+        "Node Type": "Unique",
+        "Actual Rows": 9225,
+        "Actual Loops": 1,
+        "Shared Hit Blocks": 414,
+        "Shared Read Blocks": 0,
+        "Temp Read Blocks": 0,
+        "Temp Written Blocks": 0
+      },
+      {
+        "Node Type": "Incremental Sort",
+        "Actual Rows": 40354,
+        "Actual Loops": 1,
+        "Shared Hit Blocks": 414,
+        "Shared Read Blocks": 0,
+        "Temp Read Blocks": 0,
+        "Temp Written Blocks": 0
+      },
+      {
+        "Node Type": "Index Scan",
+        "Relation Name": "nearby",
+        "Index Name": "nearby_pkey",
+        "Actual Rows": 40354,
+        "Actual Loops": 1,
+        "Shared Hit Blocks": 414,
+        "Shared Read Blocks": 0,
+        "Temp Read Blocks": 0,
+        "Temp Written Blocks": 0
+      },
+      {
+        "Node Type": "Materialize",
+        "Actual Rows": 3,
+        "Actual Loops": 9225,
+        "Shared Hit Blocks": 1,
+        "Shared Read Blocks": 0,
+        "Temp Read Blocks": 0,
+        "Temp Written Blocks": 0
+      },
+      {
+        "Node Type": "Seq Scan",
+        "Relation Name": "proximity_level",
+        "Actual Rows": 3,
+        "Actual Loops": 1,
+        "Shared Hit Blocks": 1,
+        "Shared Read Blocks": 0,
+        "Temp Read Blocks": 0,
+        "Temp Written Blocks": 0
+      },
+      {
+        "Node Type": "Hash",
+        "Actual Rows": 9385,
+        "Actual Loops": 1,
+        "Shared Hit Blocks": 101,
+        "Shared Read Blocks": 0,
+        "Temp Read Blocks": 0,
+        "Temp Written Blocks": 0
+      },
+      {
+        "Node Type": "Seq Scan",
+        "Relation Name": "hdb_flat",
+        "Actual Rows": 9385,
+        "Actual Loops": 1,
+        "Shared Hit Blocks": 101,
+        "Shared Read Blocks": 0,
+        "Temp Read Blocks": 0,
+        "Temp Written Blocks": 0
+      },
+      {
+        "Node Type": "Hash",
+        "Actual Rows": 26,
+        "Actual Loops": 1,
+        "Shared Hit Blocks": 1,
+        "Shared Read Blocks": 0,
+        "Temp Read Blocks": 0,
+        "Temp Written Blocks": 0
+      },
+      {
+        "Node Type": "Seq Scan",
+        "Relation Name": "town",
+        "Actual Rows": 26,
+        "Actual Loops": 1,
+        "Shared Hit Blocks": 1,
+        "Shared Read Blocks": 0,
+        "Temp Read Blocks": 0,
+        "Temp Written Blocks": 0
+      }
+    ]
+  },
+  {
+    "query_no": 5,
+    "execution_ms": 101.061,
+    "nodes": [
+      {
+        "Node Type": "Sort",
+        "Actual Rows": 10,
+        "Actual Loops": 1,
+        "Sort Method": "quicksort",
+        "Sort Space Used": 17,
+        "Sort Space Type": "Memory",
+        "Shared Hit Blocks": 1640,
+        "Shared Read Blocks": 0,
+        "Temp Read Blocks": 0,
+        "Temp Written Blocks": 0
+      },
+      {
+        "Node Type": "Aggregate",
+        "Actual Rows": 10,
+        "Actual Loops": 1,
+        "Rows Removed by Filter": 50,
+        "Shared Hit Blocks": 1640,
+        "Shared Read Blocks": 0,
+        "Temp Read Blocks": 0,
+        "Temp Written Blocks": 0
+      },
+      {
+        "Node Type": "Hash Join",
+        "Actual Rows": 72165,
+        "Actual Loops": 1,
+        "Shared Hit Blocks": 1640,
+        "Shared Read Blocks": 0,
+        "Temp Read Blocks": 0,
+        "Temp Written Blocks": 0
+      },
+      {
+        "Node Type": "Seq Scan",
+        "Relation Name": "resale_transaction",
+        "Actual Rows": 63007,
+        "Actual Loops": 1,
+        "Rows Removed by Filter": 0,
+        "Shared Hit Blocks": 1276,
+        "Shared Read Blocks": 0,
+        "Temp Read Blocks": 0,
+        "Temp Written Blocks": 0
+      },
+      {
+        "Node Type": "Hash",
+        "Actual Rows": 10833,
+        "Actual Loops": 1,
+        "Shared Hit Blocks": 364,
+        "Shared Read Blocks": 0,
+        "Temp Read Blocks": 0,
+        "Temp Written Blocks": 0
+      },
+      {
+        "Node Type": "Hash Join",
+        "Actual Rows": 10833,
+        "Actual Loops": 1,
+        "Shared Hit Blocks": 364,
+        "Shared Read Blocks": 0,
+        "Temp Read Blocks": 0,
+        "Temp Written Blocks": 0
+      },
+      {
+        "Node Type": "Hash Join",
+        "Actual Rows": 10833,
+        "Actual Loops": 1,
+        "Shared Hit Blocks": 363,
+        "Shared Read Blocks": 0,
+        "Temp Read Blocks": 0,
+        "Temp Written Blocks": 0
+      },
+      {
+        "Node Type": "Aggregate",
+        "Actual Rows": 10833,
+        "Actual Loops": 1,
+        "Shared Hit Blocks": 262,
+        "Shared Read Blocks": 0,
+        "Temp Read Blocks": 0,
+        "Temp Written Blocks": 0
+      },
+      {
+        "Node Type": "Nested Loop",
+        "Actual Rows": 23913,
+        "Actual Loops": 1,
+        "Shared Hit Blocks": 262,
+        "Shared Read Blocks": 0,
+        "Temp Read Blocks": 0,
+        "Temp Written Blocks": 0
+      },
+      {
+        "Node Type": "Hash Join",
+        "Actual Rows": 23913,
+        "Actual Loops": 1,
+        "Shared Hit Blocks": 261,
+        "Shared Read Blocks": 0,
+        "Temp Read Blocks": 0,
+        "Temp Written Blocks": 0
+      },
+      {
+        "Node Type": "Seq Scan",
+        "Relation Name": "nearby",
+        "Actual Rows": 40354,
+        "Actual Loops": 1,
+        "Shared Hit Blocks": 258,
+        "Shared Read Blocks": 0,
+        "Temp Read Blocks": 0,
+        "Temp Written Blocks": 0
+      },
+      {
+        "Node Type": "Hash",
+        "Actual Rows": 81,
+        "Actual Loops": 1,
+        "Shared Hit Blocks": 3,
+        "Shared Read Blocks": 0,
+        "Temp Read Blocks": 0,
+        "Temp Written Blocks": 0
+      },
+      {
+        "Node Type": "Seq Scan",
+        "Relation Name": "hawker_centre",
+        "Actual Rows": 81,
+        "Actual Loops": 1,
+        "Rows Removed by Filter": 48,
+        "Shared Hit Blocks": 3,
+        "Shared Read Blocks": 0,
+        "Temp Read Blocks": 0,
+        "Temp Written Blocks": 0
+      },
+      {
+        "Node Type": "Materialize",
+        "Actual Rows": 3,
+        "Actual Loops": 23913,
+        "Shared Hit Blocks": 1,
+        "Shared Read Blocks": 0,
+        "Temp Read Blocks": 0,
+        "Temp Written Blocks": 0
+      },
+      {
+        "Node Type": "Seq Scan",
+        "Relation Name": "proximity_level",
+        "Actual Rows": 3,
+        "Actual Loops": 1,
+        "Shared Hit Blocks": 1,
+        "Shared Read Blocks": 0,
+        "Temp Read Blocks": 0,
+        "Temp Written Blocks": 0
+      },
+      {
+        "Node Type": "Hash",
+        "Actual Rows": 9385,
+        "Actual Loops": 1,
+        "Shared Hit Blocks": 101,
+        "Shared Read Blocks": 0,
+        "Temp Read Blocks": 0,
+        "Temp Written Blocks": 0
+      },
+      {
+        "Node Type": "Seq Scan",
+        "Relation Name": "hdb_flat",
+        "Actual Rows": 9385,
+        "Actual Loops": 1,
+        "Shared Hit Blocks": 101,
+        "Shared Read Blocks": 0,
+        "Temp Read Blocks": 0,
+        "Temp Written Blocks": 0
+      },
+      {
+        "Node Type": "Hash",
+        "Actual Rows": 26,
+        "Actual Loops": 1,
+        "Shared Hit Blocks": 1,
+        "Shared Read Blocks": 0,
+        "Temp Read Blocks": 0,
+        "Temp Written Blocks": 0
+      },
+      {
+        "Node Type": "Seq Scan",
+        "Relation Name": "town",
+        "Actual Rows": 26,
+        "Actual Loops": 1,
+        "Shared Hit Blocks": 1,
+        "Shared Read Blocks": 0,
+        "Temp Read Blocks": 0,
+        "Temp Written Blocks": 0
+      }
+    ]
+  }
+]

@@ -1,0 +1,92 @@
+[
+  {
+    "tablename": "hawker_centre",
+    "indexname": "hawker_centre_hawker_name_key",
+    "indexdef": "CREATE UNIQUE INDEX hawker_centre_hawker_name_key ON housing.hawker_centre USING btree (hawker_name)",
+    "bytes": 16384
+  },
+  {
+    "tablename": "hawker_centre",
+    "indexname": "hawker_centre_pkey",
+    "indexdef": "CREATE UNIQUE INDEX hawker_centre_pkey ON housing.hawker_centre USING btree (hawker_id)",
+    "bytes": 16384
+  },
+  {
+    "tablename": "hdb_flat",
+    "indexname": "hdb_flat_block_street_name_key",
+    "indexdef": "CREATE UNIQUE INDEX hdb_flat_block_street_name_key ON housing.hdb_flat USING btree (block, street_name)",
+    "bytes": 483328
+  },
+  {
+    "tablename": "hdb_flat",
+    "indexname": "hdb_flat_pkey",
+    "indexdef": "CREATE UNIQUE INDEX hdb_flat_pkey ON housing.hdb_flat USING btree (flat_id)",
+    "bytes": 229376
+  },
+  {
+    "tablename": "nearby",
+    "indexname": "nearby_pkey",
+    "indexdef": "CREATE UNIQUE INDEX nearby_pkey ON housing.nearby USING btree (flat_id, hawker_id)",
+    "bytes": 1286144
+  },
+  {
+    "tablename": "proximity_level",
+    "indexname": "proximity_level_level_name_key",
+    "indexdef": "CREATE UNIQUE INDEX proximity_level_level_name_key ON housing.proximity_level USING btree (level_name)",
+    "bytes": 16384
+  },
+  {
+    "tablename": "proximity_level",
+    "indexname": "proximity_level_numrange_excl",
+    "indexdef": "CREATE INDEX proximity_level_numrange_excl ON housing.proximity_level USING gist (numrange((min_distance_m)::numeric, (max_distance_m)::numeric,\nCASE\n    WHEN upper_inclusive THEN '[]'::text\n    ELSE '[)'::text\nEND))",
+    "bytes": 8192
+  },
+  {
+    "tablename": "proximity_level",
+    "indexname": "proximity_level_pkey",
+    "indexdef": "CREATE UNIQUE INDEX proximity_level_pkey ON housing.proximity_level USING btree (proximity_level_id)",
+    "bytes": 16384
+  },
+  {
+    "tablename": "resale_transaction",
+    "indexname": "resale_transaction_pkey",
+    "indexdef": "CREATE UNIQUE INDEX resale_transaction_pkey ON housing.resale_transaction USING btree (transaction_id)",
+    "bytes": 2433024
+  },
+  {
+    "tablename": "resale_transaction",
+    "indexname": "resale_transaction_source_row_key_key",
+    "indexdef": "CREATE UNIQUE INDEX resale_transaction_source_row_key_key ON housing.resale_transaction USING btree (source_row_key)",
+    "bytes": 9904128
+  },
+  {
+    "tablename": "resale_transaction",
+    "indexname": "t4_team_flat",
+    "indexdef": "CREATE INDEX t4_team_flat ON housing.resale_transaction USING btree (flat_id)",
+    "bytes": 786432
+  },
+  {
+    "tablename": "resale_transaction",
+    "indexname": "t4_team_lease",
+    "indexdef": "CREATE INDEX t4_team_lease ON housing.resale_transaction USING btree (remaining_lease_months)",
+    "bytes": 581632
+  },
+  {
+    "tablename": "resale_transaction",
+    "indexname": "t4_team_month_type",
+    "indexdef": "CREATE INDEX t4_team_month_type ON housing.resale_transaction USING btree (sale_month, flat_type)",
+    "bytes": 598016
+  },
+  {
+    "tablename": "town",
+    "indexname": "town_pkey",
+    "indexdef": "CREATE UNIQUE INDEX town_pkey ON housing.town USING btree (town_id)",
+    "bytes": 16384
+  },
+  {
+    "tablename": "town",
+    "indexname": "town_town_name_key",
+    "indexdef": "CREATE UNIQUE INDEX town_town_name_key ON housing.town USING btree (town_name)",
+    "bytes": 16384
+  }
+]
