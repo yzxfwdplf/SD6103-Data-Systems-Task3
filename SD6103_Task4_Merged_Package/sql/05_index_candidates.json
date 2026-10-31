@@ -1,0 +1,57 @@
+{
+  "description": "Each isolated candidate is tested at S5 with the six exact merged queries. Constraint indexes remain. No forced planner hints are used.",
+  "candidates": [
+    {
+      "id": "team_generic",
+      "reason": "Control: the teammate's additional transaction indexes; date covers the full scope and lease appears in CASE rather than a selective WHERE.",
+      "statements": [
+        "CREATE INDEX t4_team_month_type ON resale_transaction(sale_month,flat_type); -- Re-test the teammate's general date/type index.",
+        "CREATE INDEX t4_team_flat ON resale_transaction(flat_id); -- Re-test the teammate's foreign-key lookup index.",
+        "CREATE INDEX t4_team_lease ON resale_transaction(remaining_lease_months); -- Test whether CASE grouping benefits in practice."
+      ]
+    },
+    {
+      "id": "nearest_order",
+      "reason": "Q4 DISTINCT ON needs the same flat_id/distance_m/hawker_id order; all needed relationship columns are in the index.",
+      "statements": [
+        "CREATE INDEX t4_nearby_nearest ON nearby(flat_id,distance_m,hawker_id); -- Supply Q4's nearest-centre order from a covering B-tree."
+      ]
+    },
+    {
+      "id": "partial_3room",
+      "reason": "Q3 uses only 3 ROOM observations in both stages; the index excludes other types and covers required sale values.",
+      "statements": [
+        "CREATE INDEX t4_resale_3room ON resale_transaction(flat_id,sale_month) INCLUDE(floor_area_sqm,resale_price) WHERE flat_type='3 ROOM'; -- Cover both selective Q3 passes."
+      ]
+    },
+    {
+      "id": "partial_45room",
+      "reason": "Q1 uses 4 ROOM and 5 ROOM only; cover all referenced transaction columns without relying on an unselective date bound.",
+      "statements": [
+        "CREATE INDEX t4_resale_45room ON resale_transaction(flat_type,flat_id) INCLUDE(sale_month,resale_price,floor_area_sqm) WHERE flat_type IN ('4 ROOM','5 ROOM'); -- Cover the Q1 room-type subset."
+      ]
+    },
+    {
+      "id": "sale_cover",
+      "reason": "All six queries read a narrower set than the wide transaction row; test index-only scans with a shared covering index.",
+      "statements": [
+        "CREATE INDEX t4_resale_cover ON resale_transaction(flat_id) INCLUDE(sale_month,flat_type,remaining_lease_months,resale_price,floor_area_sqm); -- Cover repeated transaction-side reads for Q1-Q6."
+      ]
+    },
+    {
+      "id": "hawker_links",
+      "reason": "Q5 filters centres by fresh-market status; test a covering join path from selected hawkers into nearby links.",
+      "statements": [
+        "CREATE INDEX t4_nearby_hawker ON nearby(hawker_id,flat_id) INCLUDE(distance_m); -- Cover centre-to-address joins used by Q5 and Q6."
+      ]
+    },
+    {
+      "id": "town_addresses",
+      "reason": "Test the teammate's town-to-address access path with a covering key order on the small address table.",
+      "statements": [
+        "CREATE INDEX t4_flat_town ON hdb_flat(town_id,flat_id); -- Cover town-to-address joins while retaining stable address keys."
+      ]
+    }
+  ],
+  "final_selection_rule": "After the exploratory candidates, retain candidate groups that are used in an actual plan and reduce the equal-query-weight geometric-mean ratio to the fresh S5 baseline below 0.98. Test their combined configuration in a fresh five-repeat confirmation; do not claim per-index additivity."
+}
