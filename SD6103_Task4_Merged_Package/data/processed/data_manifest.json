@@ -1,0 +1,93 @@
+{
+  "start_inclusive": "2023-01-01",
+  "end_exclusive": "2026-01-01",
+  "sale_period": "January 2023 - December 2025",
+  "months": [
+    "2023-01",
+    "2023-02",
+    "2023-03",
+    "2023-04",
+    "2023-05",
+    "2023-06",
+    "2023-07",
+    "2023-08",
+    "2023-09",
+    "2023-10",
+    "2023-11",
+    "2023-12",
+    "2024-01",
+    "2024-02",
+    "2024-03",
+    "2024-04",
+    "2024-05",
+    "2024-06",
+    "2024-07",
+    "2024-08",
+    "2024-09",
+    "2024-10",
+    "2024-11",
+    "2024-12",
+    "2025-01",
+    "2025-02",
+    "2025-03",
+    "2025-04",
+    "2025-05",
+    "2025-06",
+    "2025-07",
+    "2025-08",
+    "2025-09",
+    "2025-10",
+    "2025-11",
+    "2025-12"
+  ],
+  "scoped_raw_transactions": 78670,
+  "matched_transactions": 78670,
+  "excluded_transactions": 0,
+  "table_rows": {
+    "town": 26,
+    "hdb_flat": 9385,
+    "resale_transaction": 78670,
+    "hawker_centre": 129,
+    "nearby": 40354,
+    "proximity_level": 3
+  },
+  "stages": [
+    {
+      "size_level": 1,
+      "transaction_rows": 15640,
+      "months": 36
+    },
+    {
+      "size_level": 2,
+      "transaction_rows": 31581,
+      "months": 36
+    },
+    {
+      "size_level": 3,
+      "transaction_rows": 47295,
+      "months": 36
+    },
+    {
+      "size_level": 4,
+      "transaction_rows": 63007,
+      "months": 36
+    },
+    {
+      "size_level": 5,
+      "transaction_rows": 78670,
+      "months": 36
+    }
+  ],
+  "stage_rule": "int(source_row_key[:16],16) modulo 5 plus 1; cumulative stages <= S",
+  "reference_snapshot": "HDB coordinates and hawker metadata retained from the supplied snapshots; not historical reconstructions",
+  "distance_rule": "Audited distances from serialized coordinates; radius 6371000 m; rounded metres to two decimals",
+  "input_sha256": {
+    "resale_transaction.csv": "de6ee4fc7674b3b0b2106228e481ee3d978514d6022d12a8bf2ef9d062d91cb3",
+    "hdb_block.csv": "7185bee6baf28db254aec725bbc6422d4c896c475d342965f87b4837f33eae8b",
+    "town.csv": "e5c65d1f42255f63e6d1ed18f21e54f689b9824c323359d0d9943300312829f4",
+    "hawker_centre.csv": "4689f02140c9603b2faa9c024aef96970e07b429cf38d861f289c8757da1adb9",
+    "block_hawker_proximity.csv": "0c723e7d6cbbd02fcf28111d915d7ff89dc255dfc1c94f8e87d0e603c1de3412",
+    "excluded_transactions.csv": "98d2e7f433c85b3d3c2ace373d65a12df199a1d590fe662180aa58541feed1f0"
+  },
+  "logical_model": "Six base relations; proximity_level is a logical lookup, not an added conceptual entity"
+}
