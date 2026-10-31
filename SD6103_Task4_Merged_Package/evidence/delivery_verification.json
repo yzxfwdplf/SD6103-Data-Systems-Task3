@@ -1,0 +1,16 @@
+{
+  "independent_results": "passed: all 6 queries, all optional configurations",
+  "observations": 390,
+  "xlsx_formulas": 149,
+  "xlsx_cached_errors": 0,
+  "xlsx_chart_series": 2,
+  "xlsx_means_match_raw": true,
+  "pdf_pages": {
+    "SD6103_Merged_Task3_Task4.pdf": 14,
+    "SD6103_Task4.pdf": 4
+  },
+  "latex_overfull": {},
+  "native_runner": "syntax and --help checked; native server not executed",
+  "wasm_runner": "completed 390 observations",
+  "pdf_structural_read": "Both PDFs open successfully"
+}
