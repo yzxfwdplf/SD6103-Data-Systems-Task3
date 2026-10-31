@@ -1,0 +1,182 @@
+[
+  {
+    "size_level": 1,
+    "transaction_rows": 15640,
+    "tables": [
+      {
+        "table": "town",
+        "rows": 26,
+        "bytes": 73728
+      },
+      {
+        "table": "hdb_flat",
+        "rows": 9385,
+        "bytes": 1572864
+      },
+      {
+        "table": "resale_transaction",
+        "rows": 15640,
+        "bytes": 4890624
+      },
+      {
+        "table": "hawker_centre",
+        "rows": 129,
+        "bytes": 98304
+      },
+      {
+        "table": "proximity_level",
+        "rows": 3,
+        "bytes": 81920
+      },
+      {
+        "table": "nearby",
+        "rows": 40354,
+        "bytes": 3432448
+      }
+    ]
+  },
+  {
+    "size_level": 2,
+    "transaction_rows": 31581,
+    "tables": [
+      {
+        "table": "town",
+        "rows": 26,
+        "bytes": 73728
+      },
+      {
+        "table": "hdb_flat",
+        "rows": 9385,
+        "bytes": 1572864
+      },
+      {
+        "table": "resale_transaction",
+        "rows": 31581,
+        "bytes": 10338304
+      },
+      {
+        "table": "hawker_centre",
+        "rows": 129,
+        "bytes": 98304
+      },
+      {
+        "table": "proximity_level",
+        "rows": 3,
+        "bytes": 81920
+      },
+      {
+        "table": "nearby",
+        "rows": 40354,
+        "bytes": 3432448
+      }
+    ]
+  },
+  {
+    "size_level": 3,
+    "transaction_rows": 47295,
+    "tables": [
+      {
+        "table": "town",
+        "rows": 26,
+        "bytes": 73728
+      },
+      {
+        "table": "hdb_flat",
+        "rows": 9385,
+        "bytes": 1572864
+      },
+      {
+        "table": "resale_transaction",
+        "rows": 47295,
+        "bytes": 15163392
+      },
+      {
+        "table": "hawker_centre",
+        "rows": 129,
+        "bytes": 98304
+      },
+      {
+        "table": "proximity_level",
+        "rows": 3,
+        "bytes": 81920
+      },
+      {
+        "table": "nearby",
+        "rows": 40354,
+        "bytes": 3432448
+      }
+    ]
+  },
+  {
+    "size_level": 4,
+    "transaction_rows": 63007,
+    "tables": [
+      {
+        "table": "town",
+        "rows": 26,
+        "bytes": 73728
+      },
+      {
+        "table": "hdb_flat",
+        "rows": 9385,
+        "bytes": 1572864
+      },
+      {
+        "table": "resale_transaction",
+        "rows": 63007,
+        "bytes": 20316160
+      },
+      {
+        "table": "hawker_centre",
+        "rows": 129,
+        "bytes": 98304
+      },
+      {
+        "table": "proximity_level",
+        "rows": 3,
+        "bytes": 81920
+      },
+      {
+        "table": "nearby",
+        "rows": 40354,
+        "bytes": 3432448
+      }
+    ]
+  },
+  {
+    "size_level": 5,
+    "transaction_rows": 78670,
+    "tables": [
+      {
+        "table": "town",
+        "rows": 26,
+        "bytes": 73728
+      },
+      {
+        "table": "hdb_flat",
+        "rows": 9385,
+        "bytes": 1572864
+      },
+      {
+        "table": "resale_transaction",
+        "rows": 78670,
+        "bytes": 25182208
+      },
+      {
+        "table": "hawker_centre",
+        "rows": 129,
+        "bytes": 98304
+      },
+      {
+        "table": "proximity_level",
+        "rows": 3,
+        "bytes": 81920
+      },
+      {
+        "table": "nearby",
+        "rows": 40354,
+        "bytes": 3432448
+      }
+    ]
+  }
+]

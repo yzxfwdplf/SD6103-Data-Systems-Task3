@@ -1,0 +1,57 @@
+{
+  "version": "PostgreSQL 18.6 (PGlite 0.5.10) on wasm32-unknown-emscripten, compiled by emcc (Emscripten gcc/clang-like replacement + linker emulating GNU ld) 6.0.5 (1db513782be24469589d7cb8a1f1834e9a33f271), 32-bit",
+  "runtime": "PostgreSQL/WASM through PGlite 0.5.10",
+  "node": "v24.22.1",
+  "cpu": "INTEL(R) XEON(R) PLATINUM 8573C",
+  "logical_cpus": 9,
+  "os": "linux 6.18.57",
+  "captured_utc": "2026-10-31T08:00:54.323Z",
+  "metric": "EXPLAIN (ANALYZE, BUFFERS, TIMING OFF, FORMAT JSON) Execution Time",
+  "storage": "In-memory virtual filesystem; not native disk I/O",
+  "maintenance": "VACUUM (ANALYZE) before every Task 3 stage; no data changes during Task 4; planner defaults retained",
+  "settings": [
+    {
+      "name": "enable_indexonlyscan",
+      "setting": "on",
+      "unit": null
+    },
+    {
+      "name": "enable_indexscan",
+      "setting": "on",
+      "unit": null
+    },
+    {
+      "name": "enable_seqscan",
+      "setting": "on",
+      "unit": null
+    },
+    {
+      "name": "jit",
+      "setting": "on",
+      "unit": null
+    },
+    {
+      "name": "max_parallel_workers_per_gather",
+      "setting": "0",
+      "unit": null
+    },
+    {
+      "name": "shared_buffers",
+      "setting": "16384",
+      "unit": "8kB"
+    },
+    {
+      "name": "work_mem",
+      "setting": "4096",
+      "unit": "kB"
+    }
+  ],
+  "sql_sha256": {
+    "1": "8183551a278ed4beca64a04d9ff74f167a2fd6bb043caeab51cf3c6a2a0f9734",
+    "2": "946d1e9fd7abe05c272f386ad7758e5f03b572ca63b53c845a1c56cf4cb6d118",
+    "3": "ef3a7ce5f29a3e28997f48b7aa82742a69ff9295740a60978cb6bd29e5ac6cec",
+    "4": "ad0725e3b5af89e0a4ff8e1771d904638f53d51970298852e1eaa4a8d534fef1",
+    "5": "2a2c919522e9ac4a9df3cf1f834092a3e0088763fe1b464f15af242599b71f02",
+    "6": "26471beca779ca5195e5791a5112955a7c19f9c3ad1efd41d17c09a490ce6ea6"
+  }
+}
