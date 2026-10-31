@@ -1,0 +1,4 @@
+proximity_level_id,level_name,min_distance_m,max_distance_m,upper_inclusive
+1,near,0,500,false
+2,medium,500,1000,false
+3,far,1000,2000,true
