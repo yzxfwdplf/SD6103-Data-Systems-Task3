@@ -1,0 +1,463 @@
+{
+  "rows": [
+    {
+      "town_name": "ANG MO KIO",
+      "lease_bucket": "< 50 years",
+      "median_resale_price": "436944.00",
+      "avg_price_per_sqm": "5995.75",
+      "transaction_volume": 14
+    },
+    {
+      "town_name": "ANG MO KIO",
+      "lease_bucket": "50 to < 70 years",
+      "median_resale_price": "438888.00",
+      "avg_price_per_sqm": "5869.39",
+      "transaction_volume": 2428
+    },
+    {
+      "town_name": "ANG MO KIO",
+      "lease_bucket": "70+ years",
+      "median_resale_price": "900000.00",
+      "avg_price_per_sqm": "9280.82",
+      "transaction_volume": 634
+    },
+    {
+      "town_name": "BEDOK",
+      "lease_bucket": "< 50 years",
+      "median_resale_price": "385000.00",
+      "avg_price_per_sqm": "5828.79",
+      "transaction_volume": 125
+    },
+    {
+      "town_name": "BEDOK",
+      "lease_bucket": "50 to < 70 years",
+      "median_resale_price": "458000.00",
+      "avg_price_per_sqm": "5818.06",
+      "transaction_volume": 2901
+    },
+    {
+      "town_name": "BEDOK",
+      "lease_bucket": "70+ years",
+      "median_resale_price": "778000.00",
+      "avg_price_per_sqm": "7982.41",
+      "transaction_volume": 807
+    },
+    {
+      "town_name": "BISHAN",
+      "lease_bucket": "< 50 years",
+      "median_resale_price": "365000.00",
+      "avg_price_per_sqm": "5298.88",
+      "transaction_volume": 41
+    },
+    {
+      "town_name": "BISHAN",
+      "lease_bucket": "50 to < 70 years",
+      "median_resale_price": "788000.00",
+      "avg_price_per_sqm": "7645.85",
+      "transaction_volume": 978
+    },
+    {
+      "town_name": "BISHAN",
+      "lease_bucket": "70+ years",
+      "median_resale_price": "1010000.00",
+      "avg_price_per_sqm": "9469.67",
+      "transaction_volume": 119
+    },
+    {
+      "town_name": "BUKIT BATOK",
+      "lease_bucket": "50 to < 70 years",
+      "median_resale_price": "450000.00",
+      "avg_price_per_sqm": "5510.84",
+      "transaction_volume": 1758
+    },
+    {
+      "town_name": "BUKIT BATOK",
+      "lease_bucket": "70+ years",
+      "median_resale_price": "645000.00",
+      "avg_price_per_sqm": "7003.93",
+      "transaction_volume": 2688
+    },
+    {
+      "town_name": "BUKIT MERAH",
+      "lease_bucket": "< 50 years",
+      "median_resale_price": "380000.00",
+      "avg_price_per_sqm": "6476.65",
+      "transaction_volume": 493
+    },
+    {
+      "town_name": "BUKIT MERAH",
+      "lease_bucket": "50 to < 70 years",
+      "median_resale_price": "500000.00",
+      "avg_price_per_sqm": "6427.28",
+      "transaction_volume": 813
+    },
+    {
+      "town_name": "BUKIT MERAH",
+      "lease_bucket": "70+ years",
+      "median_resale_price": "900000.00",
+      "avg_price_per_sqm": "9880.26",
+      "transaction_volume": 1651
+    },
+    {
+      "town_name": "BUKIT PANJANG",
+      "lease_bucket": "50 to < 70 years",
+      "median_resale_price": "507500.00",
+      "avg_price_per_sqm": "5283.16",
+      "transaction_volume": 742
+    },
+    {
+      "town_name": "BUKIT PANJANG",
+      "lease_bucket": "70+ years",
+      "median_resale_price": "605000.00",
+      "avg_price_per_sqm": "6181.71",
+      "transaction_volume": 1681
+    },
+    {
+      "town_name": "BUKIT TIMAH",
+      "lease_bucket": "< 50 years",
+      "median_resale_price": "600000.00",
+      "avg_price_per_sqm": "7058.83",
+      "transaction_volume": 47
+    },
+    {
+      "town_name": "BUKIT TIMAH",
+      "lease_bucket": "50 to < 70 years",
+      "median_resale_price": "1020000.00",
+      "avg_price_per_sqm": "8503.27",
+      "transaction_volume": 115
+    },
+    {
+      "town_name": "CENTRAL AREA",
+      "lease_bucket": "< 50 years",
+      "median_resale_price": "420000.00",
+      "avg_price_per_sqm": "6906.39",
+      "transaction_volume": 62
+    },
+    {
+      "town_name": "CENTRAL AREA",
+      "lease_bucket": "50 to < 70 years",
+      "median_resale_price": "530000.00",
+      "avg_price_per_sqm": "7736.50",
+      "transaction_volume": 317
+    },
+    {
+      "town_name": "CENTRAL AREA",
+      "lease_bucket": "70+ years",
+      "median_resale_price": "1330000.00",
+      "avg_price_per_sqm": "12989.14",
+      "transaction_volume": 167
+    },
+    {
+      "town_name": "CHOA CHU KANG",
+      "lease_bucket": "50 to < 70 years",
+      "median_resale_price": "550000.00",
+      "avg_price_per_sqm": "5087.25",
+      "transaction_volume": 1108
+    },
+    {
+      "town_name": "CHOA CHU KANG",
+      "lease_bucket": "70+ years",
+      "median_resale_price": "561500.00",
+      "avg_price_per_sqm": "5523.84",
+      "transaction_volume": 2340
+    },
+    {
+      "town_name": "CLEMENTI",
+      "lease_bucket": "50 to < 70 years",
+      "median_resale_price": "450000.00",
+      "avg_price_per_sqm": "5954.66",
+      "transaction_volume": 1139
+    },
+    {
+      "town_name": "CLEMENTI",
+      "lease_bucket": "70+ years",
+      "median_resale_price": "912000.00",
+      "avg_price_per_sqm": "10116.40",
+      "transaction_volume": 531
+    },
+    {
+      "town_name": "GEYLANG",
+      "lease_bucket": "< 50 years",
+      "median_resale_price": "318000.00",
+      "avg_price_per_sqm": "5677.56",
+      "transaction_volume": 469
+    },
+    {
+      "town_name": "GEYLANG",
+      "lease_bucket": "50 to < 70 years",
+      "median_resale_price": "540000.00",
+      "avg_price_per_sqm": "6221.91",
+      "transaction_volume": 931
+    },
+    {
+      "town_name": "GEYLANG",
+      "lease_bucket": "70+ years",
+      "median_resale_price": "870000.00",
+      "avg_price_per_sqm": "9643.20",
+      "transaction_volume": 539
+    },
+    {
+      "town_name": "HOUGANG",
+      "lease_bucket": "< 50 years",
+      "median_resale_price": "360000.00",
+      "avg_price_per_sqm": "5745.12",
+      "transaction_volume": 27
+    },
+    {
+      "town_name": "HOUGANG",
+      "lease_bucket": "50 to < 70 years",
+      "median_resale_price": "530000.00",
+      "avg_price_per_sqm": "5860.20",
+      "transaction_volume": 2194
+    },
+    {
+      "town_name": "HOUGANG",
+      "lease_bucket": "70+ years",
+      "median_resale_price": "625000.00",
+      "avg_price_per_sqm": "6730.73",
+      "transaction_volume": 1972
+    },
+    {
+      "town_name": "JURONG EAST",
+      "lease_bucket": "< 50 years",
+      "median_resale_price": "335000.00",
+      "avg_price_per_sqm": "5010.66",
+      "transaction_volume": 7
+    },
+    {
+      "town_name": "JURONG EAST",
+      "lease_bucket": "50 to < 70 years",
+      "median_resale_price": "455800.00",
+      "avg_price_per_sqm": "5277.96",
+      "transaction_volume": 1061
+    },
+    {
+      "town_name": "JURONG EAST",
+      "lease_bucket": "70+ years",
+      "median_resale_price": "600000.00",
+      "avg_price_per_sqm": "6509.46",
+      "transaction_volume": 447
+    },
+    {
+      "town_name": "JURONG WEST",
+      "lease_bucket": "< 50 years",
+      "median_resale_price": "324000.00",
+      "avg_price_per_sqm": "4871.46",
+      "transaction_volume": 152
+    },
+    {
+      "town_name": "JURONG WEST",
+      "lease_bucket": "50 to < 70 years",
+      "median_resale_price": "475000.00",
+      "avg_price_per_sqm": "4964.40",
+      "transaction_volume": 2080
+    },
+    {
+      "town_name": "JURONG WEST",
+      "lease_bucket": "70+ years",
+      "median_resale_price": "580000.00",
+      "avg_price_per_sqm": "5835.82",
+      "transaction_volume": 2881
+    },
+    {
+      "town_name": "KALLANG/WHAMPOA",
+      "lease_bucket": "< 50 years",
+      "median_resale_price": "380000.00",
+      "avg_price_per_sqm": "5956.03",
+      "transaction_volume": 572
+    },
+    {
+      "town_name": "KALLANG/WHAMPOA",
+      "lease_bucket": "50 to < 70 years",
+      "median_resale_price": "519000.00",
+      "avg_price_per_sqm": "6601.49",
+      "transaction_volume": 820
+    },
+    {
+      "town_name": "KALLANG/WHAMPOA",
+      "lease_bucket": "70+ years",
+      "median_resale_price": "880000.00",
+      "avg_price_per_sqm": "9819.96",
+      "transaction_volume": 1108
+    },
+    {
+      "town_name": "MARINE PARADE",
+      "lease_bucket": "< 50 years",
+      "median_resale_price": "512000.00",
+      "avg_price_per_sqm": "7175.98",
+      "transaction_volume": 203
+    },
+    {
+      "town_name": "MARINE PARADE",
+      "lease_bucket": "50 to < 70 years",
+      "median_resale_price": "530000.00",
+      "avg_price_per_sqm": "6937.39",
+      "transaction_volume": 245
+    },
+    {
+      "town_name": "PASIR RIS",
+      "lease_bucket": "50 to < 70 years",
+      "median_resale_price": "680000.00",
+      "avg_price_per_sqm": "5668.42",
+      "transaction_volume": 1250
+    },
+    {
+      "town_name": "PASIR RIS",
+      "lease_bucket": "70+ years",
+      "median_resale_price": "670000.00",
+      "avg_price_per_sqm": "6362.92",
+      "transaction_volume": 690
+    },
+    {
+      "town_name": "PUNGGOL",
+      "lease_bucket": "70+ years",
+      "median_resale_price": "630000.00",
+      "avg_price_per_sqm": "6822.13",
+      "transaction_volume": 5649
+    },
+    {
+      "town_name": "QUEENSTOWN",
+      "lease_bucket": "< 50 years",
+      "median_resale_price": "381000.00",
+      "avg_price_per_sqm": "6124.93",
+      "transaction_volume": 556
+    },
+    {
+      "town_name": "QUEENSTOWN",
+      "lease_bucket": "50 to < 70 years",
+      "median_resale_price": "432500.00",
+      "avg_price_per_sqm": "6509.20",
+      "transaction_volume": 298
+    },
+    {
+      "town_name": "QUEENSTOWN",
+      "lease_bucket": "70+ years",
+      "median_resale_price": "928000.00",
+      "avg_price_per_sqm": "10424.03",
+      "transaction_volume": 1048
+    },
+    {
+      "town_name": "SEMBAWANG",
+      "lease_bucket": "70+ years",
+      "median_resale_price": "580000.00",
+      "avg_price_per_sqm": "6353.65",
+      "transaction_volume": 3211
+    },
+    {
+      "town_name": "SENGKANG",
+      "lease_bucket": "70+ years",
+      "median_resale_price": "621000.00",
+      "avg_price_per_sqm": "6511.20",
+      "transaction_volume": 5976
+    },
+    {
+      "town_name": "SERANGOON",
+      "lease_bucket": "50 to < 70 years",
+      "median_resale_price": "620000.00",
+      "avg_price_per_sqm": "6668.84",
+      "transaction_volume": 1116
+    },
+    {
+      "town_name": "SERANGOON",
+      "lease_bucket": "70+ years",
+      "median_resale_price": "741944.00",
+      "avg_price_per_sqm": "6561.33",
+      "transaction_volume": 146
+    },
+    {
+      "town_name": "TAMPINES",
+      "lease_bucket": "50 to < 70 years",
+      "median_resale_price": "600000.00",
+      "avg_price_per_sqm": "5956.51",
+      "transaction_volume": 3261
+    },
+    {
+      "town_name": "TAMPINES",
+      "lease_bucket": "70+ years",
+      "median_resale_price": "730000.00",
+      "avg_price_per_sqm": "7351.93",
+      "transaction_volume": 2255
+    },
+    {
+      "town_name": "TOA PAYOH",
+      "lease_bucket": "< 50 years",
+      "median_resale_price": "365000.00",
+      "avg_price_per_sqm": "5621.45",
+      "transaction_volume": 899
+    },
+    {
+      "town_name": "TOA PAYOH",
+      "lease_bucket": "50 to < 70 years",
+      "median_resale_price": "605000.00",
+      "avg_price_per_sqm": "6419.54",
+      "transaction_volume": 651
+    },
+    {
+      "town_name": "TOA PAYOH",
+      "lease_bucket": "70+ years",
+      "median_resale_price": "968000.00",
+      "avg_price_per_sqm": "10433.10",
+      "transaction_volume": 1041
+    },
+    {
+      "town_name": "WOODLANDS",
+      "lease_bucket": "< 50 years",
+      "median_resale_price": "350888.00",
+      "avg_price_per_sqm": "4863.01",
+      "transaction_volume": 55
+    },
+    {
+      "town_name": "WOODLANDS",
+      "lease_bucket": "50 to < 70 years",
+      "median_resale_price": "463000.00",
+      "avg_price_per_sqm": "5204.44",
+      "transaction_volume": 1218
+    },
+    {
+      "town_name": "WOODLANDS",
+      "lease_bucket": "70+ years",
+      "median_resale_price": "575000.00",
+      "avg_price_per_sqm": "5706.55",
+      "transaction_volume": 4573
+    },
+    {
+      "town_name": "YISHUN",
+      "lease_bucket": "50 to < 70 years",
+      "median_resale_price": "480000.00",
+      "avg_price_per_sqm": "5519.45",
+      "transaction_volume": 3172
+    },
+    {
+      "town_name": "YISHUN",
+      "lease_bucket": "70+ years",
+      "median_resale_price": "568000.00",
+      "avg_price_per_sqm": "6490.75",
+      "transaction_volume": 2198
+    }
+  ],
+  "fields": [
+    {
+      "name": "town_name",
+      "dataTypeID": 1043
+    },
+    {
+      "name": "lease_bucket",
+      "dataTypeID": 25
+    },
+    {
+      "name": "median_resale_price",
+      "dataTypeID": 1700
+    },
+    {
+      "name": "avg_price_per_sqm",
+      "dataTypeID": 1700
+    },
+    {
+      "name": "transaction_volume",
+      "dataTypeID": 20
+    }
+  ],
+  "command": "SELECT",
+  "affectedRows": 0,
+  "rowCount": 62
+}
