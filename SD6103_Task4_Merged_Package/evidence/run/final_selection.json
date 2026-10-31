@@ -1,0 +1,34 @@
+{
+  "selected_candidate_ids": [
+    "team_generic"
+  ],
+  "statements": [
+    "CREATE INDEX t4_team_month_type ON resale_transaction(sale_month,flat_type); -- Re-test the teammate's general date/type index.",
+    "CREATE INDEX t4_team_flat ON resale_transaction(flat_id); -- Re-test the teammate's foreign-key lookup index.",
+    "CREATE INDEX t4_team_lease ON resale_transaction(remaining_lease_months); -- Test whether CASE grouping benefits in practice."
+  ],
+  "selection_rule": "After the exploratory candidates, retain candidate groups that are used in an actual plan and reduce the equal-query-weight geometric-mean ratio to the fresh S5 baseline below 0.98. Test their combined configuration in a fresh five-repeat confirmation; do not claim per-index additivity.",
+  "build_wall_ms": 162.57394000000204,
+  "extra_index_bytes": 1966080,
+  "baseline_means": [
+    61.13440000000001,
+    160.22400000000002,
+    43.308,
+    92.104,
+    116.929,
+    805.421
+  ],
+  "indexed_means": [
+    66.59079999999999,
+    160.8152,
+    31.5448,
+    99.1742,
+    112.18820000000001,
+    842.1060000000001
+  ],
+  "used_indexes": [
+    "t4_team_month_type",
+    "nearby_pkey"
+  ],
+  "result_fingerprints": "All six complete outputs equal the S5 baseline"
+}

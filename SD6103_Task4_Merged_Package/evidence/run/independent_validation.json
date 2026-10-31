@@ -1,0 +1,83 @@
+{
+  "all_indexed_outputs_unchanged": [
+    "team_generic",
+    "nearest_order",
+    "partial_3room",
+    "partial_45room",
+    "sale_cover",
+    "hawker_links",
+    "town_addresses",
+    "selected_final"
+  ],
+  "all_six_passed": true,
+  "checks": [
+    {
+      "query": 1,
+      "passed": true,
+      "rows": 52
+    },
+    {
+      "query": 2,
+      "passed": true,
+      "rows": 62
+    },
+    {
+      "query": 3,
+      "passed": true,
+      "rows": 30
+    },
+    {
+      "query": 4,
+      "passed": true,
+      "rows": 73
+    },
+    {
+      "query": 5,
+      "passed": true,
+      "rows": 11
+    },
+    {
+      "query": 6,
+      "passed": true,
+      "rows": 154
+    }
+  ],
+  "transactions": 78670,
+  "months": 36,
+  "q5_budget": 700000,
+  "q5_stages": [
+    {
+      "size": "S1",
+      "result_rows": 9,
+      "passing_towns": 4,
+      "eligible_towns": 22
+    },
+    {
+      "size": "S2",
+      "result_rows": 10,
+      "passing_towns": 5,
+      "eligible_towns": 22
+    },
+    {
+      "size": "S3",
+      "result_rows": 11,
+      "passing_towns": 5,
+      "eligible_towns": 22
+    },
+    {
+      "size": "S4",
+      "result_rows": 10,
+      "passing_towns": 5,
+      "eligible_towns": 22
+    },
+    {
+      "size": "S5",
+      "result_rows": 11,
+      "passing_towns": 5,
+      "eligible_towns": 22
+    }
+  ],
+  "task3_measurements": 150,
+  "total_measurements": 390,
+  "sql_hashes_match": true
+}
