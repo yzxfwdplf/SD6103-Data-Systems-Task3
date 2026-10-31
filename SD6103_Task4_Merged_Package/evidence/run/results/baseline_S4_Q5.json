@@ -1,0 +1,85 @@
+{
+  "rows": [
+    {
+      "town_name": "BUKIT TIMAH",
+      "proximity_class": "near",
+      "avg_resale_price": "916351.58",
+      "transaction_count": 132
+    },
+    {
+      "town_name": "BISHAN",
+      "proximity_class": "medium",
+      "avg_resale_price": "851295.07",
+      "transaction_count": 724
+    },
+    {
+      "town_name": "BISHAN",
+      "proximity_class": "far",
+      "avg_resale_price": "826813.32",
+      "transaction_count": 930
+    },
+    {
+      "town_name": "CENTRAL AREA",
+      "proximity_class": "near",
+      "avg_resale_price": "807893.69",
+      "transaction_count": 362
+    },
+    {
+      "town_name": "CENTRAL AREA",
+      "proximity_class": "medium",
+      "avg_resale_price": "790827.12",
+      "transaction_count": 397
+    },
+    {
+      "town_name": "CENTRAL AREA",
+      "proximity_class": "far",
+      "avg_resale_price": "762102.62",
+      "transaction_count": 441
+    },
+    {
+      "town_name": "BUKIT MERAH",
+      "proximity_class": "near",
+      "avg_resale_price": "732179.38",
+      "transaction_count": 2103
+    },
+    {
+      "town_name": "BUKIT MERAH",
+      "proximity_class": "far",
+      "avg_resale_price": "728716.10",
+      "transaction_count": 2347
+    },
+    {
+      "town_name": "BUKIT MERAH",
+      "proximity_class": "medium",
+      "avg_resale_price": "716433.58",
+      "transaction_count": 1930
+    },
+    {
+      "town_name": "QUEENSTOWN",
+      "proximity_class": "far",
+      "avg_resale_price": "703728.87",
+      "transaction_count": 1549
+    }
+  ],
+  "fields": [
+    {
+      "name": "town_name",
+      "dataTypeID": 1043
+    },
+    {
+      "name": "proximity_class",
+      "dataTypeID": 1043
+    },
+    {
+      "name": "avg_resale_price",
+      "dataTypeID": 1700
+    },
+    {
+      "name": "transaction_count",
+      "dataTypeID": 20
+    }
+  ],
+  "command": "SELECT",
+  "affectedRows": 0,
+  "rowCount": 10
+}

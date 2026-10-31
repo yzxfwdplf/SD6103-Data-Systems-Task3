@@ -1,0 +1,91 @@
+{
+  "rows": [
+    {
+      "town_name": "BUKIT TIMAH",
+      "proximity_class": "near",
+      "avg_resale_price": "897986.20",
+      "transaction_count": 162
+    },
+    {
+      "town_name": "BISHAN",
+      "proximity_class": "medium",
+      "avg_resale_price": "848219.63",
+      "transaction_count": 886
+    },
+    {
+      "town_name": "BISHAN",
+      "proximity_class": "far",
+      "avg_resale_price": "823020.47",
+      "transaction_count": 1138
+    },
+    {
+      "town_name": "CENTRAL AREA",
+      "proximity_class": "near",
+      "avg_resale_price": "805810.01",
+      "transaction_count": 450
+    },
+    {
+      "town_name": "CENTRAL AREA",
+      "proximity_class": "medium",
+      "avg_resale_price": "787059.31",
+      "transaction_count": 495
+    },
+    {
+      "town_name": "CENTRAL AREA",
+      "proximity_class": "far",
+      "avg_resale_price": "760729.39",
+      "transaction_count": 546
+    },
+    {
+      "town_name": "BUKIT MERAH",
+      "proximity_class": "near",
+      "avg_resale_price": "731309.10",
+      "transaction_count": 2656
+    },
+    {
+      "town_name": "BUKIT MERAH",
+      "proximity_class": "far",
+      "avg_resale_price": "728198.21",
+      "transaction_count": 2957
+    },
+    {
+      "town_name": "BUKIT MERAH",
+      "proximity_class": "medium",
+      "avg_resale_price": "717838.37",
+      "transaction_count": 2424
+    },
+    {
+      "town_name": "QUEENSTOWN",
+      "proximity_class": "far",
+      "avg_resale_price": "712094.01",
+      "transaction_count": 1902
+    },
+    {
+      "town_name": "QUEENSTOWN",
+      "proximity_class": "medium",
+      "avg_resale_price": "704915.90",
+      "transaction_count": 1805
+    }
+  ],
+  "fields": [
+    {
+      "name": "town_name",
+      "dataTypeID": 1043
+    },
+    {
+      "name": "proximity_class",
+      "dataTypeID": 1043
+    },
+    {
+      "name": "avg_resale_price",
+      "dataTypeID": 1700
+    },
+    {
+      "name": "transaction_count",
+      "dataTypeID": 20
+    }
+  ],
+  "command": "SELECT",
+  "affectedRows": 0,
+  "rowCount": 11
+}

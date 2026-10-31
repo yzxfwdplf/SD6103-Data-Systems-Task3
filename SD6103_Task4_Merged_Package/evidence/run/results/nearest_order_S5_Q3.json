@@ -1,0 +1,205 @@
+{
+  "rows": [
+    {
+      "town_name": "TAMPINES",
+      "sale_year": 2023,
+      "avg_3room_floor_area_sqm": "71.24",
+      "highest_resale_price": "620000.00"
+    },
+    {
+      "town_name": "TAMPINES",
+      "sale_year": 2024,
+      "avg_3room_floor_area_sqm": "71.24",
+      "highest_resale_price": "640000.00"
+    },
+    {
+      "town_name": "TAMPINES",
+      "sale_year": 2025,
+      "avg_3room_floor_area_sqm": "71.24",
+      "highest_resale_price": "698000.00"
+    },
+    {
+      "town_name": "ANG MO KIO",
+      "sale_year": 2023,
+      "avg_3room_floor_area_sqm": "71.01",
+      "highest_resale_price": "777888.00"
+    },
+    {
+      "town_name": "ANG MO KIO",
+      "sale_year": 2024,
+      "avg_3room_floor_area_sqm": "71.01",
+      "highest_resale_price": "780000.00"
+    },
+    {
+      "town_name": "ANG MO KIO",
+      "sale_year": 2025,
+      "avg_3room_floor_area_sqm": "71.01",
+      "highest_resale_price": "794500.00"
+    },
+    {
+      "town_name": "BUKIT TIMAH",
+      "sale_year": 2023,
+      "avg_3room_floor_area_sqm": "70.94",
+      "highest_resale_price": "570000.00"
+    },
+    {
+      "town_name": "BUKIT TIMAH",
+      "sale_year": 2024,
+      "avg_3room_floor_area_sqm": "70.94",
+      "highest_resale_price": "535000.00"
+    },
+    {
+      "town_name": "BUKIT TIMAH",
+      "sale_year": 2025,
+      "avg_3room_floor_area_sqm": "70.94",
+      "highest_resale_price": "602888.00"
+    },
+    {
+      "town_name": "JURONG EAST",
+      "sale_year": 2023,
+      "avg_3room_floor_area_sqm": "70.51",
+      "highest_resale_price": "495000.00"
+    },
+    {
+      "town_name": "JURONG EAST",
+      "sale_year": 2024,
+      "avg_3room_floor_area_sqm": "70.51",
+      "highest_resale_price": "565000.00"
+    },
+    {
+      "town_name": "JURONG EAST",
+      "sale_year": 2025,
+      "avg_3room_floor_area_sqm": "70.51",
+      "highest_resale_price": "558000.00"
+    },
+    {
+      "town_name": "BUKIT PANJANG",
+      "sale_year": 2023,
+      "avg_3room_floor_area_sqm": "70.37",
+      "highest_resale_price": "515000.00"
+    },
+    {
+      "town_name": "BUKIT PANJANG",
+      "sale_year": 2024,
+      "avg_3room_floor_area_sqm": "70.37",
+      "highest_resale_price": "530000.00"
+    },
+    {
+      "town_name": "BUKIT PANJANG",
+      "sale_year": 2025,
+      "avg_3room_floor_area_sqm": "70.37",
+      "highest_resale_price": "548888.00"
+    },
+    {
+      "town_name": "CHOA CHU KANG",
+      "sale_year": 2023,
+      "avg_3room_floor_area_sqm": "69.81",
+      "highest_resale_price": "475000.00"
+    },
+    {
+      "town_name": "CHOA CHU KANG",
+      "sale_year": 2024,
+      "avg_3room_floor_area_sqm": "69.81",
+      "highest_resale_price": "490888.00"
+    },
+    {
+      "town_name": "CHOA CHU KANG",
+      "sale_year": 2025,
+      "avg_3room_floor_area_sqm": "69.81",
+      "highest_resale_price": "530000.00"
+    },
+    {
+      "town_name": "CLEMENTI",
+      "sale_year": 2023,
+      "avg_3room_floor_area_sqm": "69.32",
+      "highest_resale_price": "790000.00"
+    },
+    {
+      "town_name": "CLEMENTI",
+      "sale_year": 2024,
+      "avg_3room_floor_area_sqm": "69.32",
+      "highest_resale_price": "840000.00"
+    },
+    {
+      "town_name": "CLEMENTI",
+      "sale_year": 2025,
+      "avg_3room_floor_area_sqm": "69.32",
+      "highest_resale_price": "740188.00"
+    },
+    {
+      "town_name": "YISHUN",
+      "sale_year": 2023,
+      "avg_3room_floor_area_sqm": "68.84",
+      "highest_resale_price": "550000.00"
+    },
+    {
+      "town_name": "YISHUN",
+      "sale_year": 2024,
+      "avg_3room_floor_area_sqm": "68.84",
+      "highest_resale_price": "578000.00"
+    },
+    {
+      "town_name": "YISHUN",
+      "sale_year": 2025,
+      "avg_3room_floor_area_sqm": "68.84",
+      "highest_resale_price": "620000.00"
+    },
+    {
+      "town_name": "WOODLANDS",
+      "sale_year": 2023,
+      "avg_3room_floor_area_sqm": "68.71",
+      "highest_resale_price": "505000.00"
+    },
+    {
+      "town_name": "WOODLANDS",
+      "sale_year": 2024,
+      "avg_3room_floor_area_sqm": "68.71",
+      "highest_resale_price": "555888.00"
+    },
+    {
+      "town_name": "WOODLANDS",
+      "sale_year": 2025,
+      "avg_3room_floor_area_sqm": "68.71",
+      "highest_resale_price": "588000.00"
+    },
+    {
+      "town_name": "HOUGANG",
+      "sale_year": 2023,
+      "avg_3room_floor_area_sqm": "68.32",
+      "highest_resale_price": "540888.00"
+    },
+    {
+      "town_name": "HOUGANG",
+      "sale_year": 2024,
+      "avg_3room_floor_area_sqm": "68.32",
+      "highest_resale_price": "590000.00"
+    },
+    {
+      "town_name": "HOUGANG",
+      "sale_year": 2025,
+      "avg_3room_floor_area_sqm": "68.32",
+      "highest_resale_price": "640000.00"
+    }
+  ],
+  "fields": [
+    {
+      "name": "town_name",
+      "dataTypeID": 1043
+    },
+    {
+      "name": "sale_year",
+      "dataTypeID": 23
+    },
+    {
+      "name": "avg_3room_floor_area_sqm",
+      "dataTypeID": 1700
+    },
+    {
+      "name": "highest_resale_price",
+      "dataTypeID": 1700
+    }
+  ],
+  "command": "SELECT",
+  "affectedRows": 0,
+  "rowCount": 30
+}

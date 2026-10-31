@@ -1,0 +1,1265 @@
+{
+  "rows": [
+    {
+      "town_name": "ANG MO KIO",
+      "proximity_class": "near",
+      "fresh_market_status": "no",
+      "flat_count": 36,
+      "transaction_count": 142,
+      "avg_resale_price": "466017.75"
+    },
+    {
+      "town_name": "ANG MO KIO",
+      "proximity_class": "near",
+      "fresh_market_status": "yes",
+      "flat_count": 291,
+      "transaction_count": 1127,
+      "avg_resale_price": "553031.59"
+    },
+    {
+      "town_name": "ANG MO KIO",
+      "proximity_class": "medium",
+      "fresh_market_status": "no",
+      "flat_count": 96,
+      "transaction_count": 352,
+      "avg_resale_price": "592925.07"
+    },
+    {
+      "town_name": "ANG MO KIO",
+      "proximity_class": "medium",
+      "fresh_market_status": "yes",
+      "flat_count": 299,
+      "transaction_count": 1174,
+      "avg_resale_price": "555192.72"
+    },
+    {
+      "town_name": "ANG MO KIO",
+      "proximity_class": "far",
+      "fresh_market_status": "no",
+      "flat_count": 263,
+      "transaction_count": 1038,
+      "avg_resale_price": "551999.28"
+    },
+    {
+      "town_name": "ANG MO KIO",
+      "proximity_class": "far",
+      "fresh_market_status": "yes",
+      "flat_count": 312,
+      "transaction_count": 1229,
+      "avg_resale_price": "557310.76"
+    },
+    {
+      "town_name": "BEDOK",
+      "proximity_class": "near",
+      "fresh_market_status": "no",
+      "flat_count": 40,
+      "transaction_count": 155,
+      "avg_resale_price": "523252.92"
+    },
+    {
+      "town_name": "BEDOK",
+      "proximity_class": "near",
+      "fresh_market_status": "yes",
+      "flat_count": 286,
+      "transaction_count": 1128,
+      "avg_resale_price": "531803.21"
+    },
+    {
+      "town_name": "BEDOK",
+      "proximity_class": "medium",
+      "fresh_market_status": "no",
+      "flat_count": 122,
+      "transaction_count": 480,
+      "avg_resale_price": "513125.48"
+    },
+    {
+      "town_name": "BEDOK",
+      "proximity_class": "medium",
+      "fresh_market_status": "yes",
+      "flat_count": 372,
+      "transaction_count": 1394,
+      "avg_resale_price": "560768.62"
+    },
+    {
+      "town_name": "BEDOK",
+      "proximity_class": "far",
+      "fresh_market_status": "no",
+      "flat_count": 227,
+      "transaction_count": 890,
+      "avg_resale_price": "565425.85"
+    },
+    {
+      "town_name": "BEDOK",
+      "proximity_class": "far",
+      "fresh_market_status": "unknown",
+      "flat_count": 12,
+      "transaction_count": 51,
+      "avg_resale_price": "738218.90"
+    },
+    {
+      "town_name": "BEDOK",
+      "proximity_class": "far",
+      "fresh_market_status": "yes",
+      "flat_count": 428,
+      "transaction_count": 1567,
+      "avg_resale_price": "560364.30"
+    },
+    {
+      "town_name": "BISHAN",
+      "proximity_class": "near",
+      "fresh_market_status": "yes",
+      "flat_count": 22,
+      "transaction_count": 63,
+      "avg_resale_price": "611343.87"
+    },
+    {
+      "town_name": "BISHAN",
+      "proximity_class": "medium",
+      "fresh_market_status": "no",
+      "flat_count": 37,
+      "transaction_count": 89,
+      "avg_resale_price": "877599.06"
+    },
+    {
+      "town_name": "BISHAN",
+      "proximity_class": "medium",
+      "fresh_market_status": "yes",
+      "flat_count": 138,
+      "transaction_count": 367,
+      "avg_resale_price": "851645.86"
+    },
+    {
+      "town_name": "BISHAN",
+      "proximity_class": "far",
+      "fresh_market_status": "no",
+      "flat_count": 159,
+      "transaction_count": 419,
+      "avg_resale_price": "806927.70"
+    },
+    {
+      "town_name": "BISHAN",
+      "proximity_class": "far",
+      "fresh_market_status": "unknown",
+      "flat_count": 13,
+      "transaction_count": 27,
+      "avg_resale_price": "809246.81"
+    },
+    {
+      "town_name": "BISHAN",
+      "proximity_class": "far",
+      "fresh_market_status": "yes",
+      "flat_count": 184,
+      "transaction_count": 483,
+      "avg_resale_price": "821810.73"
+    },
+    {
+      "town_name": "BUKIT BATOK",
+      "proximity_class": "near",
+      "fresh_market_status": "unknown",
+      "flat_count": 48,
+      "transaction_count": 634,
+      "avg_resale_price": "607606.02"
+    },
+    {
+      "town_name": "BUKIT BATOK",
+      "proximity_class": "near",
+      "fresh_market_status": "yes",
+      "flat_count": 7,
+      "transaction_count": 28,
+      "avg_resale_price": "536993.68"
+    },
+    {
+      "town_name": "BUKIT BATOK",
+      "proximity_class": "medium",
+      "fresh_market_status": "unknown",
+      "flat_count": 100,
+      "transaction_count": 316,
+      "avg_resale_price": "569641.62"
+    },
+    {
+      "town_name": "BUKIT BATOK",
+      "proximity_class": "medium",
+      "fresh_market_status": "yes",
+      "flat_count": 44,
+      "transaction_count": 188,
+      "avg_resale_price": "614171.86"
+    },
+    {
+      "town_name": "BUKIT BATOK",
+      "proximity_class": "far",
+      "fresh_market_status": "unknown",
+      "flat_count": 201,
+      "transaction_count": 833,
+      "avg_resale_price": "571711.57"
+    },
+    {
+      "town_name": "BUKIT BATOK",
+      "proximity_class": "far",
+      "fresh_market_status": "yes",
+      "flat_count": 201,
+      "transaction_count": 1274,
+      "avg_resale_price": "616051.34"
+    },
+    {
+      "town_name": "BUKIT MERAH",
+      "proximity_class": "near",
+      "fresh_market_status": "no",
+      "flat_count": 144,
+      "transaction_count": 586,
+      "avg_resale_price": "789139.41"
+    },
+    {
+      "town_name": "BUKIT MERAH",
+      "proximity_class": "near",
+      "fresh_market_status": "unknown",
+      "flat_count": 40,
+      "transaction_count": 228,
+      "avg_resale_price": "761648.92"
+    },
+    {
+      "town_name": "BUKIT MERAH",
+      "proximity_class": "near",
+      "fresh_market_status": "yes",
+      "flat_count": 267,
+      "transaction_count": 1033,
+      "avg_resale_price": "736214.53"
+    },
+    {
+      "town_name": "BUKIT MERAH",
+      "proximity_class": "medium",
+      "fresh_market_status": "no",
+      "flat_count": 197,
+      "transaction_count": 718,
+      "avg_resale_price": "743003.77"
+    },
+    {
+      "town_name": "BUKIT MERAH",
+      "proximity_class": "medium",
+      "fresh_market_status": "unknown",
+      "flat_count": 17,
+      "transaction_count": 80,
+      "avg_resale_price": "808670.21"
+    },
+    {
+      "town_name": "BUKIT MERAH",
+      "proximity_class": "medium",
+      "fresh_market_status": "yes",
+      "flat_count": 281,
+      "transaction_count": 953,
+      "avg_resale_price": "718613.18"
+    },
+    {
+      "town_name": "BUKIT MERAH",
+      "proximity_class": "far",
+      "fresh_market_status": "no",
+      "flat_count": 312,
+      "transaction_count": 1154,
+      "avg_resale_price": "732351.88"
+    },
+    {
+      "town_name": "BUKIT MERAH",
+      "proximity_class": "far",
+      "fresh_market_status": "unknown",
+      "flat_count": 133,
+      "transaction_count": 408,
+      "avg_resale_price": "653237.26"
+    },
+    {
+      "town_name": "BUKIT MERAH",
+      "proximity_class": "far",
+      "fresh_market_status": "yes",
+      "flat_count": 312,
+      "transaction_count": 1154,
+      "avg_resale_price": "732351.88"
+    },
+    {
+      "town_name": "BUKIT PANJANG",
+      "proximity_class": "near",
+      "fresh_market_status": "unknown",
+      "flat_count": 122,
+      "transaction_count": 417,
+      "avg_resale_price": "577316.96"
+    },
+    {
+      "town_name": "BUKIT PANJANG",
+      "proximity_class": "medium",
+      "fresh_market_status": "unknown",
+      "flat_count": 138,
+      "transaction_count": 431,
+      "avg_resale_price": "640135.53"
+    },
+    {
+      "town_name": "BUKIT PANJANG",
+      "proximity_class": "far",
+      "fresh_market_status": "unknown",
+      "flat_count": 263,
+      "transaction_count": 877,
+      "avg_resale_price": "601574.79"
+    },
+    {
+      "town_name": "BUKIT TIMAH",
+      "proximity_class": "near",
+      "fresh_market_status": "unknown",
+      "flat_count": 17,
+      "transaction_count": 41,
+      "avg_resale_price": "1102181.68"
+    },
+    {
+      "town_name": "BUKIT TIMAH",
+      "proximity_class": "near",
+      "fresh_market_status": "yes",
+      "flat_count": 24,
+      "transaction_count": 71,
+      "avg_resale_price": "897336.80"
+    },
+    {
+      "town_name": "BUKIT TIMAH",
+      "proximity_class": "medium",
+      "fresh_market_status": "no",
+      "flat_count": 2,
+      "transaction_count": 13,
+      "avg_resale_price": "534129.85"
+    },
+    {
+      "town_name": "BUKIT TIMAH",
+      "proximity_class": "far",
+      "fresh_market_status": "no",
+      "flat_count": 5,
+      "transaction_count": 17,
+      "avg_resale_price": "681045.65"
+    },
+    {
+      "town_name": "BUKIT TIMAH",
+      "proximity_class": "far",
+      "fresh_market_status": "yes",
+      "flat_count": 7,
+      "transaction_count": 30,
+      "avg_resale_price": "617382.13"
+    },
+    {
+      "town_name": "CENTRAL AREA",
+      "proximity_class": "near",
+      "fresh_market_status": "no",
+      "flat_count": 32,
+      "transaction_count": 108,
+      "avg_resale_price": "711700.37"
+    },
+    {
+      "town_name": "CENTRAL AREA",
+      "proximity_class": "near",
+      "fresh_market_status": "unknown",
+      "flat_count": 2,
+      "transaction_count": 6,
+      "avg_resale_price": "530648.00"
+    },
+    {
+      "town_name": "CENTRAL AREA",
+      "proximity_class": "near",
+      "fresh_market_status": "yes",
+      "flat_count": 42,
+      "transaction_count": 171,
+      "avg_resale_price": "821614.26"
+    },
+    {
+      "town_name": "CENTRAL AREA",
+      "proximity_class": "medium",
+      "fresh_market_status": "no",
+      "flat_count": 36,
+      "transaction_count": 153,
+      "avg_resale_price": "827791.05"
+    },
+    {
+      "town_name": "CENTRAL AREA",
+      "proximity_class": "medium",
+      "fresh_market_status": "unknown",
+      "flat_count": 7,
+      "transaction_count": 20,
+      "avg_resale_price": "493540.00"
+    },
+    {
+      "town_name": "CENTRAL AREA",
+      "proximity_class": "medium",
+      "fresh_market_status": "yes",
+      "flat_count": 49,
+      "transaction_count": 186,
+      "avg_resale_price": "799271.52"
+    },
+    {
+      "town_name": "CENTRAL AREA",
+      "proximity_class": "far",
+      "fresh_market_status": "no",
+      "flat_count": 48,
+      "transaction_count": 186,
+      "avg_resale_price": "802967.34"
+    },
+    {
+      "town_name": "CENTRAL AREA",
+      "proximity_class": "far",
+      "fresh_market_status": "unknown",
+      "flat_count": 25,
+      "transaction_count": 112,
+      "avg_resale_price": "965431.77"
+    },
+    {
+      "town_name": "CENTRAL AREA",
+      "proximity_class": "far",
+      "fresh_market_status": "yes",
+      "flat_count": 54,
+      "transaction_count": 208,
+      "avg_resale_price": "768848.57"
+    },
+    {
+      "town_name": "CHOA CHU KANG",
+      "proximity_class": "near",
+      "fresh_market_status": "unknown",
+      "flat_count": 67,
+      "transaction_count": 138,
+      "avg_resale_price": "625319.45"
+    },
+    {
+      "town_name": "CHOA CHU KANG",
+      "proximity_class": "medium",
+      "fresh_market_status": "unknown",
+      "flat_count": 108,
+      "transaction_count": 359,
+      "avg_resale_price": "564440.81"
+    },
+    {
+      "town_name": "CHOA CHU KANG",
+      "proximity_class": "far",
+      "fresh_market_status": "unknown",
+      "flat_count": 246,
+      "transaction_count": 732,
+      "avg_resale_price": "582765.22"
+    },
+    {
+      "town_name": "CLEMENTI",
+      "proximity_class": "near",
+      "fresh_market_status": "no",
+      "flat_count": 18,
+      "transaction_count": 51,
+      "avg_resale_price": "451440.47"
+    },
+    {
+      "town_name": "CLEMENTI",
+      "proximity_class": "near",
+      "fresh_market_status": "yes",
+      "flat_count": 109,
+      "transaction_count": 373,
+      "avg_resale_price": "592488.50"
+    },
+    {
+      "town_name": "CLEMENTI",
+      "proximity_class": "medium",
+      "fresh_market_status": "no",
+      "flat_count": 55,
+      "transaction_count": 215,
+      "avg_resale_price": "690908.98"
+    },
+    {
+      "town_name": "CLEMENTI",
+      "proximity_class": "medium",
+      "fresh_market_status": "yes",
+      "flat_count": 142,
+      "transaction_count": 586,
+      "avg_resale_price": "660849.78"
+    },
+    {
+      "town_name": "CLEMENTI",
+      "proximity_class": "far",
+      "fresh_market_status": "no",
+      "flat_count": 92,
+      "transaction_count": 402,
+      "avg_resale_price": "662969.69"
+    },
+    {
+      "town_name": "CLEMENTI",
+      "proximity_class": "far",
+      "fresh_market_status": "unknown",
+      "flat_count": 6,
+      "transaction_count": 19,
+      "avg_resale_price": "950783.58"
+    },
+    {
+      "town_name": "CLEMENTI",
+      "proximity_class": "far",
+      "fresh_market_status": "yes",
+      "flat_count": 151,
+      "transaction_count": 612,
+      "avg_resale_price": "632512.26"
+    },
+    {
+      "town_name": "GEYLANG",
+      "proximity_class": "near",
+      "fresh_market_status": "no",
+      "flat_count": 53,
+      "transaction_count": 187,
+      "avg_resale_price": "411146.10"
+    },
+    {
+      "town_name": "GEYLANG",
+      "proximity_class": "near",
+      "fresh_market_status": "yes",
+      "flat_count": 179,
+      "transaction_count": 661,
+      "avg_resale_price": "583262.98"
+    },
+    {
+      "town_name": "GEYLANG",
+      "proximity_class": "medium",
+      "fresh_market_status": "no",
+      "flat_count": 58,
+      "transaction_count": 243,
+      "avg_resale_price": "652577.93"
+    },
+    {
+      "town_name": "GEYLANG",
+      "proximity_class": "medium",
+      "fresh_market_status": "yes",
+      "flat_count": 193,
+      "transaction_count": 690,
+      "avg_resale_price": "600205.98"
+    },
+    {
+      "town_name": "GEYLANG",
+      "proximity_class": "far",
+      "fresh_market_status": "no",
+      "flat_count": 108,
+      "transaction_count": 349,
+      "avg_resale_price": "627040.46"
+    },
+    {
+      "town_name": "GEYLANG",
+      "proximity_class": "far",
+      "fresh_market_status": "unknown",
+      "flat_count": 9,
+      "transaction_count": 32,
+      "avg_resale_price": "434793.38"
+    },
+    {
+      "town_name": "GEYLANG",
+      "proximity_class": "far",
+      "fresh_market_status": "yes",
+      "flat_count": 222,
+      "transaction_count": 789,
+      "avg_resale_price": "584564.90"
+    },
+    {
+      "town_name": "HOUGANG",
+      "proximity_class": "near",
+      "fresh_market_status": "unknown",
+      "flat_count": 92,
+      "transaction_count": 243,
+      "avg_resale_price": "615105.45"
+    },
+    {
+      "town_name": "HOUGANG",
+      "proximity_class": "near",
+      "fresh_market_status": "yes",
+      "flat_count": 52,
+      "transaction_count": 161,
+      "avg_resale_price": "579532.45"
+    },
+    {
+      "town_name": "HOUGANG",
+      "proximity_class": "medium",
+      "fresh_market_status": "unknown",
+      "flat_count": 195,
+      "transaction_count": 697,
+      "avg_resale_price": "598684.46"
+    },
+    {
+      "town_name": "HOUGANG",
+      "proximity_class": "medium",
+      "fresh_market_status": "yes",
+      "flat_count": 97,
+      "transaction_count": 289,
+      "avg_resale_price": "539584.37"
+    },
+    {
+      "town_name": "HOUGANG",
+      "proximity_class": "far",
+      "fresh_market_status": "no",
+      "flat_count": 50,
+      "transaction_count": 135,
+      "avg_resale_price": "593315.50"
+    },
+    {
+      "town_name": "HOUGANG",
+      "proximity_class": "far",
+      "fresh_market_status": "unknown",
+      "flat_count": 392,
+      "transaction_count": 1343,
+      "avg_resale_price": "598515.99"
+    },
+    {
+      "town_name": "HOUGANG",
+      "proximity_class": "far",
+      "fresh_market_status": "yes",
+      "flat_count": 247,
+      "transaction_count": 721,
+      "avg_resale_price": "578526.13"
+    },
+    {
+      "town_name": "JURONG EAST",
+      "proximity_class": "near",
+      "fresh_market_status": "yes",
+      "flat_count": 96,
+      "transaction_count": 283,
+      "avg_resale_price": "473393.88"
+    },
+    {
+      "town_name": "JURONG EAST",
+      "proximity_class": "medium",
+      "fresh_market_status": "yes",
+      "flat_count": 133,
+      "transaction_count": 422,
+      "avg_resale_price": "541426.53"
+    },
+    {
+      "town_name": "JURONG EAST",
+      "proximity_class": "far",
+      "fresh_market_status": "no",
+      "flat_count": 13,
+      "transaction_count": 31,
+      "avg_resale_price": "424218.58"
+    },
+    {
+      "town_name": "JURONG EAST",
+      "proximity_class": "far",
+      "fresh_market_status": "unknown",
+      "flat_count": 132,
+      "transaction_count": 405,
+      "avg_resale_price": "549845.71"
+    },
+    {
+      "town_name": "JURONG EAST",
+      "proximity_class": "far",
+      "fresh_market_status": "yes",
+      "flat_count": 147,
+      "transaction_count": 439,
+      "avg_resale_price": "553536.13"
+    },
+    {
+      "town_name": "JURONG WEST",
+      "proximity_class": "near",
+      "fresh_market_status": "unknown",
+      "flat_count": 90,
+      "transaction_count": 254,
+      "avg_resale_price": "577641.66"
+    },
+    {
+      "town_name": "JURONG WEST",
+      "proximity_class": "near",
+      "fresh_market_status": "yes",
+      "flat_count": 154,
+      "transaction_count": 557,
+      "avg_resale_price": "468341.01"
+    },
+    {
+      "town_name": "JURONG WEST",
+      "proximity_class": "medium",
+      "fresh_market_status": "unknown",
+      "flat_count": 203,
+      "transaction_count": 552,
+      "avg_resale_price": "573578.97"
+    },
+    {
+      "town_name": "JURONG WEST",
+      "proximity_class": "medium",
+      "fresh_market_status": "yes",
+      "flat_count": 236,
+      "transaction_count": 883,
+      "avg_resale_price": "519113.31"
+    },
+    {
+      "town_name": "JURONG WEST",
+      "proximity_class": "far",
+      "fresh_market_status": "unknown",
+      "flat_count": 138,
+      "transaction_count": 511,
+      "avg_resale_price": "489800.89"
+    },
+    {
+      "town_name": "JURONG WEST",
+      "proximity_class": "far",
+      "fresh_market_status": "yes",
+      "flat_count": 497,
+      "transaction_count": 1568,
+      "avg_resale_price": "531051.15"
+    },
+    {
+      "town_name": "KALLANG/WHAMPOA",
+      "proximity_class": "near",
+      "fresh_market_status": "no",
+      "flat_count": 6,
+      "transaction_count": 15,
+      "avg_resale_price": "544125.87"
+    },
+    {
+      "town_name": "KALLANG/WHAMPOA",
+      "proximity_class": "near",
+      "fresh_market_status": "yes",
+      "flat_count": 171,
+      "transaction_count": 757,
+      "avg_resale_price": "678904.75"
+    },
+    {
+      "town_name": "KALLANG/WHAMPOA",
+      "proximity_class": "medium",
+      "fresh_market_status": "no",
+      "flat_count": 40,
+      "transaction_count": 133,
+      "avg_resale_price": "707052.87"
+    },
+    {
+      "town_name": "KALLANG/WHAMPOA",
+      "proximity_class": "medium",
+      "fresh_market_status": "yes",
+      "flat_count": 205,
+      "transaction_count": 892,
+      "avg_resale_price": "666845.99"
+    },
+    {
+      "town_name": "KALLANG/WHAMPOA",
+      "proximity_class": "far",
+      "fresh_market_status": "no",
+      "flat_count": 180,
+      "transaction_count": 862,
+      "avg_resale_price": "679552.71"
+    },
+    {
+      "town_name": "KALLANG/WHAMPOA",
+      "proximity_class": "far",
+      "fresh_market_status": "unknown",
+      "flat_count": 31,
+      "transaction_count": 182,
+      "avg_resale_price": "626426.77"
+    },
+    {
+      "town_name": "KALLANG/WHAMPOA",
+      "proximity_class": "far",
+      "fresh_market_status": "yes",
+      "flat_count": 230,
+      "transaction_count": 1005,
+      "avg_resale_price": "675692.51"
+    },
+    {
+      "town_name": "MARINE PARADE",
+      "proximity_class": "near",
+      "fresh_market_status": "yes",
+      "flat_count": 47,
+      "transaction_count": 150,
+      "avg_resale_price": "625605.15"
+    },
+    {
+      "town_name": "MARINE PARADE",
+      "proximity_class": "medium",
+      "fresh_market_status": "no",
+      "flat_count": 6,
+      "transaction_count": 16,
+      "avg_resale_price": "853208.31"
+    },
+    {
+      "town_name": "MARINE PARADE",
+      "proximity_class": "medium",
+      "fresh_market_status": "yes",
+      "flat_count": 37,
+      "transaction_count": 125,
+      "avg_resale_price": "618748.86"
+    },
+    {
+      "town_name": "MARINE PARADE",
+      "proximity_class": "far",
+      "fresh_market_status": "no",
+      "flat_count": 45,
+      "transaction_count": 151,
+      "avg_resale_price": "586618.80"
+    },
+    {
+      "town_name": "MARINE PARADE",
+      "proximity_class": "far",
+      "fresh_market_status": "yes",
+      "flat_count": 35,
+      "transaction_count": 109,
+      "avg_resale_price": "612182.43"
+    },
+    {
+      "town_name": "PASIR RIS",
+      "proximity_class": "near",
+      "fresh_market_status": "unknown",
+      "flat_count": 29,
+      "transaction_count": 73,
+      "avg_resale_price": "755084.30"
+    },
+    {
+      "town_name": "PASIR RIS",
+      "proximity_class": "near",
+      "fresh_market_status": "yes",
+      "flat_count": 2,
+      "transaction_count": 5,
+      "avg_resale_price": "370200.00"
+    },
+    {
+      "town_name": "PASIR RIS",
+      "proximity_class": "medium",
+      "fresh_market_status": "unknown",
+      "flat_count": 137,
+      "transaction_count": 314,
+      "avg_resale_price": "693481.38"
+    },
+    {
+      "town_name": "PASIR RIS",
+      "proximity_class": "far",
+      "fresh_market_status": "unknown",
+      "flat_count": 272,
+      "transaction_count": 599,
+      "avg_resale_price": "707563.34"
+    },
+    {
+      "town_name": "PUNGGOL",
+      "proximity_class": "near",
+      "fresh_market_status": "unknown",
+      "flat_count": 22,
+      "transaction_count": 115,
+      "avg_resale_price": "701360.61"
+    },
+    {
+      "town_name": "PUNGGOL",
+      "proximity_class": "medium",
+      "fresh_market_status": "unknown",
+      "flat_count": 195,
+      "transaction_count": 1130,
+      "avg_resale_price": "638028.35"
+    },
+    {
+      "town_name": "PUNGGOL",
+      "proximity_class": "far",
+      "fresh_market_status": "unknown",
+      "flat_count": 418,
+      "transaction_count": 2068,
+      "avg_resale_price": "628733.12"
+    },
+    {
+      "town_name": "QUEENSTOWN",
+      "proximity_class": "near",
+      "fresh_market_status": "no",
+      "flat_count": 5,
+      "transaction_count": 15,
+      "avg_resale_price": "391912.53"
+    },
+    {
+      "town_name": "QUEENSTOWN",
+      "proximity_class": "near",
+      "fresh_market_status": "unknown",
+      "flat_count": 22,
+      "transaction_count": 100,
+      "avg_resale_price": "800471.66"
+    },
+    {
+      "town_name": "QUEENSTOWN",
+      "proximity_class": "near",
+      "fresh_market_status": "yes",
+      "flat_count": 111,
+      "transaction_count": 486,
+      "avg_resale_price": "604679.75"
+    },
+    {
+      "town_name": "QUEENSTOWN",
+      "proximity_class": "medium",
+      "fresh_market_status": "no",
+      "flat_count": 35,
+      "transaction_count": 113,
+      "avg_resale_price": "733227.12"
+    },
+    {
+      "town_name": "QUEENSTOWN",
+      "proximity_class": "medium",
+      "fresh_market_status": "unknown",
+      "flat_count": 105,
+      "transaction_count": 425,
+      "avg_resale_price": "701748.24"
+    },
+    {
+      "town_name": "QUEENSTOWN",
+      "proximity_class": "medium",
+      "fresh_market_status": "yes",
+      "flat_count": 158,
+      "transaction_count": 709,
+      "avg_resale_price": "695951.42"
+    },
+    {
+      "town_name": "QUEENSTOWN",
+      "proximity_class": "far",
+      "fresh_market_status": "no",
+      "flat_count": 72,
+      "transaction_count": 314,
+      "avg_resale_price": "814813.26"
+    },
+    {
+      "town_name": "QUEENSTOWN",
+      "proximity_class": "far",
+      "fresh_market_status": "unknown",
+      "flat_count": 137,
+      "transaction_count": 611,
+      "avg_resale_price": "712458.68"
+    },
+    {
+      "town_name": "QUEENSTOWN",
+      "proximity_class": "far",
+      "fresh_market_status": "yes",
+      "flat_count": 168,
+      "transaction_count": 746,
+      "avg_resale_price": "701382.18"
+    },
+    {
+      "town_name": "SEMBAWANG",
+      "proximity_class": "near",
+      "fresh_market_status": "unknown",
+      "flat_count": 60,
+      "transaction_count": 150,
+      "avg_resale_price": "603377.97"
+    },
+    {
+      "town_name": "SEMBAWANG",
+      "proximity_class": "medium",
+      "fresh_market_status": "unknown",
+      "flat_count": 113,
+      "transaction_count": 596,
+      "avg_resale_price": "569792.92"
+    },
+    {
+      "town_name": "SEMBAWANG",
+      "proximity_class": "far",
+      "fresh_market_status": "unknown",
+      "flat_count": 124,
+      "transaction_count": 897,
+      "avg_resale_price": "581316.22"
+    },
+    {
+      "town_name": "SEMBAWANG",
+      "proximity_class": "far",
+      "fresh_market_status": "yes",
+      "flat_count": 72,
+      "transaction_count": 498,
+      "avg_resale_price": "602788.55"
+    },
+    {
+      "town_name": "SENGKANG",
+      "proximity_class": "near",
+      "fresh_market_status": "unknown",
+      "flat_count": 197,
+      "transaction_count": 952,
+      "avg_resale_price": "643421.79"
+    },
+    {
+      "town_name": "SENGKANG",
+      "proximity_class": "medium",
+      "fresh_market_status": "unknown",
+      "flat_count": 207,
+      "transaction_count": 838,
+      "avg_resale_price": "634381.82"
+    },
+    {
+      "town_name": "SENGKANG",
+      "proximity_class": "far",
+      "fresh_market_status": "unknown",
+      "flat_count": 557,
+      "transaction_count": 2221,
+      "avg_resale_price": "634316.61"
+    },
+    {
+      "town_name": "SERANGOON",
+      "proximity_class": "medium",
+      "fresh_market_status": "no",
+      "flat_count": 46,
+      "transaction_count": 136,
+      "avg_resale_price": "545784.23"
+    },
+    {
+      "town_name": "SERANGOON",
+      "proximity_class": "medium",
+      "fresh_market_status": "unknown",
+      "flat_count": 27,
+      "transaction_count": 60,
+      "avg_resale_price": "747819.87"
+    },
+    {
+      "town_name": "SERANGOON",
+      "proximity_class": "medium",
+      "fresh_market_status": "yes",
+      "flat_count": 54,
+      "transaction_count": 157,
+      "avg_resale_price": "567451.94"
+    },
+    {
+      "town_name": "SERANGOON",
+      "proximity_class": "far",
+      "fresh_market_status": "no",
+      "flat_count": 136,
+      "transaction_count": 348,
+      "avg_resale_price": "705812.45"
+    },
+    {
+      "town_name": "SERANGOON",
+      "proximity_class": "far",
+      "fresh_market_status": "unknown",
+      "flat_count": 168,
+      "transaction_count": 449,
+      "avg_resale_price": "668574.74"
+    },
+    {
+      "town_name": "SERANGOON",
+      "proximity_class": "far",
+      "fresh_market_status": "yes",
+      "flat_count": 194,
+      "transaction_count": 518,
+      "avg_resale_price": "670542.96"
+    },
+    {
+      "town_name": "TAMPINES",
+      "proximity_class": "near",
+      "fresh_market_status": "unknown",
+      "flat_count": 71,
+      "transaction_count": 315,
+      "avg_resale_price": "779243.21"
+    },
+    {
+      "town_name": "TAMPINES",
+      "proximity_class": "near",
+      "fresh_market_status": "yes",
+      "flat_count": 29,
+      "transaction_count": 89,
+      "avg_resale_price": "613483.73"
+    },
+    {
+      "town_name": "TAMPINES",
+      "proximity_class": "medium",
+      "fresh_market_status": "unknown",
+      "flat_count": 229,
+      "transaction_count": 844,
+      "avg_resale_price": "628656.86"
+    },
+    {
+      "town_name": "TAMPINES",
+      "proximity_class": "medium",
+      "fresh_market_status": "yes",
+      "flat_count": 110,
+      "transaction_count": 377,
+      "avg_resale_price": "607648.29"
+    },
+    {
+      "town_name": "TAMPINES",
+      "proximity_class": "far",
+      "fresh_market_status": "unknown",
+      "flat_count": 492,
+      "transaction_count": 1737,
+      "avg_resale_price": "654964.08"
+    },
+    {
+      "town_name": "TAMPINES",
+      "proximity_class": "far",
+      "fresh_market_status": "yes",
+      "flat_count": 490,
+      "transaction_count": 1489,
+      "avg_resale_price": "641457.53"
+    },
+    {
+      "town_name": "TOA PAYOH",
+      "proximity_class": "near",
+      "fresh_market_status": "no",
+      "flat_count": 60,
+      "transaction_count": 237,
+      "avg_resale_price": "652189.97"
+    },
+    {
+      "town_name": "TOA PAYOH",
+      "proximity_class": "near",
+      "fresh_market_status": "unknown",
+      "flat_count": 6,
+      "transaction_count": 47,
+      "avg_resale_price": "1027375.62"
+    },
+    {
+      "town_name": "TOA PAYOH",
+      "proximity_class": "near",
+      "fresh_market_status": "yes",
+      "flat_count": 179,
+      "transaction_count": 740,
+      "avg_resale_price": "669263.80"
+    },
+    {
+      "town_name": "TOA PAYOH",
+      "proximity_class": "medium",
+      "fresh_market_status": "no",
+      "flat_count": 120,
+      "transaction_count": 464,
+      "avg_resale_price": "653454.09"
+    },
+    {
+      "town_name": "TOA PAYOH",
+      "proximity_class": "medium",
+      "fresh_market_status": "unknown",
+      "flat_count": 26,
+      "transaction_count": 102,
+      "avg_resale_price": "842459.65"
+    },
+    {
+      "town_name": "TOA PAYOH",
+      "proximity_class": "medium",
+      "fresh_market_status": "yes",
+      "flat_count": 216,
+      "transaction_count": 871,
+      "avg_resale_price": "646376.11"
+    },
+    {
+      "town_name": "TOA PAYOH",
+      "proximity_class": "far",
+      "fresh_market_status": "no",
+      "flat_count": 79,
+      "transaction_count": 348,
+      "avg_resale_price": "730203.23"
+    },
+    {
+      "town_name": "TOA PAYOH",
+      "proximity_class": "far",
+      "fresh_market_status": "unknown",
+      "flat_count": 81,
+      "transaction_count": 303,
+      "avg_resale_price": "570820.43"
+    },
+    {
+      "town_name": "TOA PAYOH",
+      "proximity_class": "far",
+      "fresh_market_status": "yes",
+      "flat_count": 259,
+      "transaction_count": 1049,
+      "avg_resale_price": "678629.59"
+    },
+    {
+      "town_name": "WOODLANDS",
+      "proximity_class": "near",
+      "fresh_market_status": "unknown",
+      "flat_count": 159,
+      "transaction_count": 566,
+      "avg_resale_price": "608099.96"
+    },
+    {
+      "town_name": "WOODLANDS",
+      "proximity_class": "near",
+      "fresh_market_status": "yes",
+      "flat_count": 31,
+      "transaction_count": 162,
+      "avg_resale_price": "395492.64"
+    },
+    {
+      "town_name": "WOODLANDS",
+      "proximity_class": "medium",
+      "fresh_market_status": "unknown",
+      "flat_count": 299,
+      "transaction_count": 1184,
+      "avg_resale_price": "559980.55"
+    },
+    {
+      "town_name": "WOODLANDS",
+      "proximity_class": "medium",
+      "fresh_market_status": "yes",
+      "flat_count": 59,
+      "transaction_count": 245,
+      "avg_resale_price": "548614.38"
+    },
+    {
+      "town_name": "WOODLANDS",
+      "proximity_class": "far",
+      "fresh_market_status": "unknown",
+      "flat_count": 286,
+      "transaction_count": 1062,
+      "avg_resale_price": "580060.68"
+    },
+    {
+      "town_name": "WOODLANDS",
+      "proximity_class": "far",
+      "fresh_market_status": "yes",
+      "flat_count": 216,
+      "transaction_count": 660,
+      "avg_resale_price": "626232.18"
+    },
+    {
+      "town_name": "YISHUN",
+      "proximity_class": "near",
+      "fresh_market_status": "unknown",
+      "flat_count": 145,
+      "transaction_count": 567,
+      "avg_resale_price": "508321.43"
+    },
+    {
+      "town_name": "YISHUN",
+      "proximity_class": "near",
+      "fresh_market_status": "yes",
+      "flat_count": 65,
+      "transaction_count": 229,
+      "avg_resale_price": "426823.28"
+    },
+    {
+      "town_name": "YISHUN",
+      "proximity_class": "medium",
+      "fresh_market_status": "unknown",
+      "flat_count": 248,
+      "transaction_count": 1015,
+      "avg_resale_price": "541824.94"
+    },
+    {
+      "town_name": "YISHUN",
+      "proximity_class": "medium",
+      "fresh_market_status": "yes",
+      "flat_count": 88,
+      "transaction_count": 272,
+      "avg_resale_price": "482857.43"
+    },
+    {
+      "town_name": "YISHUN",
+      "proximity_class": "far",
+      "fresh_market_status": "unknown",
+      "flat_count": 484,
+      "transaction_count": 1705,
+      "avg_resale_price": "538699.02"
+    },
+    {
+      "town_name": "YISHUN",
+      "proximity_class": "far",
+      "fresh_market_status": "yes",
+      "flat_count": 269,
+      "transaction_count": 902,
+      "avg_resale_price": "571852.88"
+    }
+  ],
+  "fields": [
+    {
+      "name": "town_name",
+      "dataTypeID": 1043
+    },
+    {
+      "name": "proximity_class",
+      "dataTypeID": 1043
+    },
+    {
+      "name": "fresh_market_status",
+      "dataTypeID": 25
+    },
+    {
+      "name": "flat_count",
+      "dataTypeID": 20
+    },
+    {
+      "name": "transaction_count",
+      "dataTypeID": 20
+    },
+    {
+      "name": "avg_resale_price",
+      "dataTypeID": 1700
+    }
+  ],
+  "command": "SELECT",
+  "affectedRows": 0,
+  "rowCount": 154
+}

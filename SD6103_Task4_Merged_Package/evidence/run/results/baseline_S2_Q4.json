@@ -1,0 +1,533 @@
+{
+  "rows": [
+    {
+      "town": "KALLANG/WHAMPOA",
+      "flat_type": "4 ROOM",
+      "avg_price_near_hawker": "862553.90",
+      "avg_price_far_hawker": "566694.00",
+      "price_diff_percentage": "52.21"
+    },
+    {
+      "town": "TOA PAYOH",
+      "flat_type": "5 ROOM",
+      "avg_price_near_hawker": "1001149.38",
+      "avg_price_far_hawker": "711345.75",
+      "price_diff_percentage": "40.74"
+    },
+    {
+      "town": "GEYLANG",
+      "flat_type": "5 ROOM",
+      "avg_price_near_hawker": "875790.47",
+      "avg_price_far_hawker": "640000.00",
+      "price_diff_percentage": "36.84"
+    },
+    {
+      "town": "GEYLANG",
+      "flat_type": "4 ROOM",
+      "avg_price_near_hawker": "783375.66",
+      "avg_price_far_hawker": "577412.57",
+      "price_diff_percentage": "35.67"
+    },
+    {
+      "town": "TOA PAYOH",
+      "flat_type": "4 ROOM",
+      "avg_price_near_hawker": "852279.00",
+      "avg_price_far_hawker": "656518.22",
+      "price_diff_percentage": "29.82"
+    },
+    {
+      "town": "PUNGGOL",
+      "flat_type": "5 ROOM",
+      "avg_price_near_hawker": "852115.38",
+      "avg_price_far_hawker": "665039.13",
+      "price_diff_percentage": "28.13"
+    },
+    {
+      "town": "BUKIT PANJANG",
+      "flat_type": "EXECUTIVE",
+      "avg_price_near_hawker": "840904.69",
+      "avg_price_far_hawker": "669000.00",
+      "price_diff_percentage": "25.70"
+    },
+    {
+      "town": "KALLANG/WHAMPOA",
+      "flat_type": "5 ROOM",
+      "avg_price_near_hawker": "992292.33",
+      "avg_price_far_hawker": "809200.00",
+      "price_diff_percentage": "22.63"
+    },
+    {
+      "town": "TAMPINES",
+      "flat_type": "5 ROOM",
+      "avg_price_near_hawker": "877253.44",
+      "avg_price_far_hawker": "721697.23",
+      "price_diff_percentage": "21.55"
+    },
+    {
+      "town": "JURONG WEST",
+      "flat_type": "EXECUTIVE",
+      "avg_price_near_hawker": "787483.28",
+      "avg_price_far_hawker": "647993.78",
+      "price_diff_percentage": "21.53"
+    },
+    {
+      "town": "SENGKANG",
+      "flat_type": "5 ROOM",
+      "avg_price_near_hawker": "741217.60",
+      "avg_price_far_hawker": "621654.55",
+      "price_diff_percentage": "19.23"
+    },
+    {
+      "town": "SENGKANG",
+      "flat_type": "4 ROOM",
+      "avg_price_near_hawker": "649301.16",
+      "avg_price_far_hawker": "546373.56",
+      "price_diff_percentage": "18.84"
+    },
+    {
+      "town": "PASIR RIS",
+      "flat_type": "4 ROOM",
+      "avg_price_near_hawker": "690662.57",
+      "avg_price_far_hawker": "585186.20",
+      "price_diff_percentage": "18.02"
+    },
+    {
+      "town": "QUEENSTOWN",
+      "flat_type": "3 ROOM",
+      "avg_price_near_hawker": "438045.65",
+      "avg_price_far_hawker": "374800.00",
+      "price_diff_percentage": "16.87"
+    },
+    {
+      "town": "BUKIT BATOK",
+      "flat_type": "3 ROOM",
+      "avg_price_near_hawker": "470104.11",
+      "avg_price_far_hawker": "405897.75",
+      "price_diff_percentage": "15.82"
+    },
+    {
+      "town": "BUKIT MERAH",
+      "flat_type": "5 ROOM",
+      "avg_price_near_hawker": "1012693.21",
+      "avg_price_far_hawker": "880000.00",
+      "price_diff_percentage": "15.08"
+    },
+    {
+      "town": "TAMPINES",
+      "flat_type": "3 ROOM",
+      "avg_price_near_hawker": "516674.33",
+      "avg_price_far_hawker": "453875.91",
+      "price_diff_percentage": "13.84"
+    },
+    {
+      "town": "TAMPINES",
+      "flat_type": "4 ROOM",
+      "avg_price_near_hawker": "691874.57",
+      "avg_price_far_hawker": "609810.49",
+      "price_diff_percentage": "13.46"
+    },
+    {
+      "town": "PASIR RIS",
+      "flat_type": "5 ROOM",
+      "avg_price_near_hawker": "783693.80",
+      "avg_price_far_hawker": "690795.78",
+      "price_diff_percentage": "13.45"
+    },
+    {
+      "town": "SEMBAWANG",
+      "flat_type": "EXECUTIVE",
+      "avg_price_near_hawker": "755288.80",
+      "avg_price_far_hawker": "669363.64",
+      "price_diff_percentage": "12.84"
+    },
+    {
+      "town": "BUKIT PANJANG",
+      "flat_type": "5 ROOM",
+      "avg_price_near_hawker": "662558.22",
+      "avg_price_far_hawker": "588756.28",
+      "price_diff_percentage": "12.54"
+    },
+    {
+      "town": "JURONG WEST",
+      "flat_type": "5 ROOM",
+      "avg_price_near_hawker": "615640.15",
+      "avg_price_far_hawker": "551379.78",
+      "price_diff_percentage": "11.65"
+    },
+    {
+      "town": "CHOA CHU KANG",
+      "flat_type": "3 ROOM",
+      "avg_price_near_hawker": "462736.00",
+      "avg_price_far_hawker": "415343.71",
+      "price_diff_percentage": "11.41"
+    },
+    {
+      "town": "PUNGGOL",
+      "flat_type": "4 ROOM",
+      "avg_price_near_hawker": "673832.28",
+      "avg_price_far_hawker": "610404.49",
+      "price_diff_percentage": "10.39"
+    },
+    {
+      "town": "JURONG WEST",
+      "flat_type": "4 ROOM",
+      "avg_price_near_hawker": "525433.36",
+      "avg_price_far_hawker": "477538.53",
+      "price_diff_percentage": "10.03"
+    },
+    {
+      "town": "BISHAN",
+      "flat_type": "EXECUTIVE",
+      "avg_price_near_hawker": "1316000.00",
+      "avg_price_far_hawker": "1201347.00",
+      "price_diff_percentage": "9.54"
+    },
+    {
+      "town": "PASIR RIS",
+      "flat_type": "EXECUTIVE",
+      "avg_price_near_hawker": "911827.11",
+      "avg_price_far_hawker": "839476.71",
+      "price_diff_percentage": "8.62"
+    },
+    {
+      "town": "TAMPINES",
+      "flat_type": "EXECUTIVE",
+      "avg_price_near_hawker": "973975.70",
+      "avg_price_far_hawker": "900828.42",
+      "price_diff_percentage": "8.12"
+    },
+    {
+      "town": "BUKIT BATOK",
+      "flat_type": "4 ROOM",
+      "avg_price_near_hawker": "625827.75",
+      "avg_price_far_hawker": "579727.03",
+      "price_diff_percentage": "7.95"
+    },
+    {
+      "town": "TOA PAYOH",
+      "flat_type": "3 ROOM",
+      "avg_price_near_hawker": "438106.54",
+      "avg_price_far_hawker": "407706.29",
+      "price_diff_percentage": "7.46"
+    },
+    {
+      "town": "SENGKANG",
+      "flat_type": "3 ROOM",
+      "avg_price_near_hawker": "507287.21",
+      "avg_price_far_hawker": "472425.14",
+      "price_diff_percentage": "7.38"
+    },
+    {
+      "town": "SENGKANG",
+      "flat_type": "EXECUTIVE",
+      "avg_price_near_hawker": "815222.00",
+      "avg_price_far_hawker": "774637.94",
+      "price_diff_percentage": "5.24"
+    },
+    {
+      "town": "YISHUN",
+      "flat_type": "4 ROOM",
+      "avg_price_near_hawker": "544014.34",
+      "avg_price_far_hawker": "521625.57",
+      "price_diff_percentage": "4.29"
+    },
+    {
+      "town": "CHOA CHU KANG",
+      "flat_type": "4 ROOM",
+      "avg_price_near_hawker": "553654.06",
+      "avg_price_far_hawker": "531414.23",
+      "price_diff_percentage": "4.19"
+    },
+    {
+      "town": "PUNGGOL",
+      "flat_type": "3 ROOM",
+      "avg_price_near_hawker": "510543.11",
+      "avg_price_far_hawker": "491249.57",
+      "price_diff_percentage": "3.93"
+    },
+    {
+      "town": "YISHUN",
+      "flat_type": "5 ROOM",
+      "avg_price_near_hawker": "699381.42",
+      "avg_price_far_hawker": "673574.11",
+      "price_diff_percentage": "3.83"
+    },
+    {
+      "town": "CHOA CHU KANG",
+      "flat_type": "5 ROOM",
+      "avg_price_near_hawker": "670721.73",
+      "avg_price_far_hawker": "648842.45",
+      "price_diff_percentage": "3.37"
+    },
+    {
+      "town": "WOODLANDS",
+      "flat_type": "5 ROOM",
+      "avg_price_near_hawker": "656212.32",
+      "avg_price_far_hawker": "635036.64",
+      "price_diff_percentage": "3.33"
+    },
+    {
+      "town": "YISHUN",
+      "flat_type": "EXECUTIVE",
+      "avg_price_near_hawker": "866762.55",
+      "avg_price_far_hawker": "845265.33",
+      "price_diff_percentage": "2.54"
+    },
+    {
+      "town": "BUKIT BATOK",
+      "flat_type": "5 ROOM",
+      "avg_price_near_hawker": "776788.22",
+      "avg_price_far_hawker": "759665.00",
+      "price_diff_percentage": "2.25"
+    },
+    {
+      "town": "WOODLANDS",
+      "flat_type": "EXECUTIVE",
+      "avg_price_near_hawker": "872527.76",
+      "avg_price_far_hawker": "862682.83",
+      "price_diff_percentage": "1.14"
+    },
+    {
+      "town": "BUKIT PANJANG",
+      "flat_type": "4 ROOM",
+      "avg_price_near_hawker": "544588.68",
+      "avg_price_far_hawker": "546089.46",
+      "price_diff_percentage": "-0.27"
+    },
+    {
+      "town": "BUKIT BATOK",
+      "flat_type": "2 ROOM",
+      "avg_price_near_hawker": "360462.52",
+      "avg_price_far_hawker": "361681.33",
+      "price_diff_percentage": "-0.34"
+    },
+    {
+      "town": "WOODLANDS",
+      "flat_type": "2 ROOM",
+      "avg_price_near_hawker": "347875.00",
+      "avg_price_far_hawker": "350493.78",
+      "price_diff_percentage": "-0.75"
+    },
+    {
+      "town": "KALLANG/WHAMPOA",
+      "flat_type": "3 ROOM",
+      "avg_price_near_hawker": "447595.66",
+      "avg_price_far_hawker": "453250.00",
+      "price_diff_percentage": "-1.25"
+    },
+    {
+      "town": "HOUGANG",
+      "flat_type": "EXECUTIVE",
+      "avg_price_near_hawker": "949750.79",
+      "avg_price_far_hawker": "964235.29",
+      "price_diff_percentage": "-1.50"
+    },
+    {
+      "town": "BUKIT PANJANG",
+      "flat_type": "2 ROOM",
+      "avg_price_near_hawker": "338854.67",
+      "avg_price_far_hawker": "345200.00",
+      "price_diff_percentage": "-1.84"
+    },
+    {
+      "town": "SEMBAWANG",
+      "flat_type": "3 ROOM",
+      "avg_price_near_hawker": "473361.00",
+      "avg_price_far_hawker": "489439.04",
+      "price_diff_percentage": "-3.28"
+    },
+    {
+      "town": "WOODLANDS",
+      "flat_type": "4 ROOM",
+      "avg_price_near_hawker": "523727.95",
+      "avg_price_far_hawker": "542660.11",
+      "price_diff_percentage": "-3.49"
+    },
+    {
+      "town": "BEDOK",
+      "flat_type": "EXECUTIVE",
+      "avg_price_near_hawker": "972272.00",
+      "avg_price_far_hawker": "1008586.00",
+      "price_diff_percentage": "-3.60"
+    },
+    {
+      "town": "CHOA CHU KANG",
+      "flat_type": "EXECUTIVE",
+      "avg_price_near_hawker": "781412.00",
+      "avg_price_far_hawker": "812826.33",
+      "price_diff_percentage": "-3.86"
+    },
+    {
+      "town": "GEYLANG",
+      "flat_type": "3 ROOM",
+      "avg_price_near_hawker": "413163.69",
+      "avg_price_far_hawker": "434535.27",
+      "price_diff_percentage": "-4.92"
+    },
+    {
+      "town": "HOUGANG",
+      "flat_type": "5 ROOM",
+      "avg_price_near_hawker": "744227.32",
+      "avg_price_far_hawker": "789371.90",
+      "price_diff_percentage": "-5.72"
+    },
+    {
+      "town": "SEMBAWANG",
+      "flat_type": "2 ROOM",
+      "avg_price_near_hawker": "336600.00",
+      "avg_price_far_hawker": "357891.79",
+      "price_diff_percentage": "-5.95"
+    },
+    {
+      "town": "YISHUN",
+      "flat_type": "3 ROOM",
+      "avg_price_near_hawker": "403645.86",
+      "avg_price_far_hawker": "430409.92",
+      "price_diff_percentage": "-6.22"
+    },
+    {
+      "town": "HOUGANG",
+      "flat_type": "3 ROOM",
+      "avg_price_near_hawker": "422610.57",
+      "avg_price_far_hawker": "455476.31",
+      "price_diff_percentage": "-7.22"
+    },
+    {
+      "town": "BISHAN",
+      "flat_type": "5 ROOM",
+      "avg_price_near_hawker": "904833.33",
+      "avg_price_far_hawker": "977166.67",
+      "price_diff_percentage": "-7.40"
+    },
+    {
+      "town": "BUKIT PANJANG",
+      "flat_type": "3 ROOM",
+      "avg_price_near_hawker": "416321.82",
+      "avg_price_far_hawker": "451740.67",
+      "price_diff_percentage": "-7.84"
+    },
+    {
+      "town": "SEMBAWANG",
+      "flat_type": "5 ROOM",
+      "avg_price_near_hawker": "622947.53",
+      "avg_price_far_hawker": "696554.63",
+      "price_diff_percentage": "-10.57"
+    },
+    {
+      "town": "JURONG EAST",
+      "flat_type": "4 ROOM",
+      "avg_price_near_hawker": "504126.19",
+      "avg_price_far_hawker": "564305.06",
+      "price_diff_percentage": "-10.66"
+    },
+    {
+      "town": "SEMBAWANG",
+      "flat_type": "4 ROOM",
+      "avg_price_near_hawker": "533838.33",
+      "avg_price_far_hawker": "599907.52",
+      "price_diff_percentage": "-11.01"
+    },
+    {
+      "town": "JURONG WEST",
+      "flat_type": "3 ROOM",
+      "avg_price_near_hawker": "347896.25",
+      "avg_price_far_hawker": "391529.85",
+      "price_diff_percentage": "-11.14"
+    },
+    {
+      "town": "CLEMENTI",
+      "flat_type": "4 ROOM",
+      "avg_price_near_hawker": "708928.28",
+      "avg_price_far_hawker": "798090.91",
+      "price_diff_percentage": "-11.17"
+    },
+    {
+      "town": "JURONG EAST",
+      "flat_type": "5 ROOM",
+      "avg_price_near_hawker": "647542.06",
+      "avg_price_far_hawker": "729888.80",
+      "price_diff_percentage": "-11.28"
+    },
+    {
+      "town": "HOUGANG",
+      "flat_type": "4 ROOM",
+      "avg_price_near_hawker": "565377.10",
+      "avg_price_far_hawker": "641337.68",
+      "price_diff_percentage": "-11.84"
+    },
+    {
+      "town": "CLEMENTI",
+      "flat_type": "EXECUTIVE",
+      "avg_price_near_hawker": "898000.00",
+      "avg_price_far_hawker": "1030432.00",
+      "price_diff_percentage": "-12.85"
+    },
+    {
+      "town": "BISHAN",
+      "flat_type": "3 ROOM",
+      "avg_price_near_hawker": "464703.67",
+      "avg_price_far_hawker": "542846.15",
+      "price_diff_percentage": "-14.39"
+    },
+    {
+      "town": "WOODLANDS",
+      "flat_type": "3 ROOM",
+      "avg_price_near_hawker": "379303.23",
+      "avg_price_far_hawker": "449204.12",
+      "price_diff_percentage": "-15.56"
+    },
+    {
+      "town": "CLEMENTI",
+      "flat_type": "5 ROOM",
+      "avg_price_near_hawker": "879993.30",
+      "avg_price_far_hawker": "1070000.00",
+      "price_diff_percentage": "-17.76"
+    },
+    {
+      "town": "JURONG EAST",
+      "flat_type": "EXECUTIVE",
+      "avg_price_near_hawker": "792971.79",
+      "avg_price_far_hawker": "980984.00",
+      "price_diff_percentage": "-19.17"
+    },
+    {
+      "town": "BISHAN",
+      "flat_type": "4 ROOM",
+      "avg_price_near_hawker": "586371.59",
+      "avg_price_far_hawker": "755214.29",
+      "price_diff_percentage": "-22.36"
+    },
+    {
+      "town": "CLEMENTI",
+      "flat_type": "3 ROOM",
+      "avg_price_near_hawker": "420506.32",
+      "avg_price_far_hawker": "617000.00",
+      "price_diff_percentage": "-31.85"
+    }
+  ],
+  "fields": [
+    {
+      "name": "town",
+      "dataTypeID": 1043
+    },
+    {
+      "name": "flat_type",
+      "dataTypeID": 1043
+    },
+    {
+      "name": "avg_price_near_hawker",
+      "dataTypeID": 1700
+    },
+    {
+      "name": "avg_price_far_hawker",
+      "dataTypeID": 1700
+    },
+    {
+      "name": "price_diff_percentage",
+      "dataTypeID": 1700
+    }
+  ],
+  "command": "SELECT",
+  "affectedRows": 0,
+  "rowCount": 72
+}
