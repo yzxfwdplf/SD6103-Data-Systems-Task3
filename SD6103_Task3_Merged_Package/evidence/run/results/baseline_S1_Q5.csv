@@ -1,0 +1,10 @@
+town_name,proximity_class,avg_resale_price,transaction_count
+"BUKIT TIMAH","near","890152.50","38"
+"BISHAN","medium","870704.54","186"
+"BISHAN","far","834575.85","243"
+"CENTRAL AREA","near","822569.69","80"
+"CENTRAL AREA","medium","790582.53","88"
+"CENTRAL AREA","far","763727.17","98"
+"BUKIT MERAH","near","732590.42","507"
+"BUKIT MERAH","far","728514.64","566"
+"BUKIT MERAH","medium","714990.85","467"

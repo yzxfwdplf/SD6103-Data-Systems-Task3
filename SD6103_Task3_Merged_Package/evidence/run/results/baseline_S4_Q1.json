@@ -1,0 +1,337 @@
+{
+  "rows": [
+    {
+      "town_name": "CENTRAL AREA",
+      "flat_type": "5 ROOM",
+      "avg_price_per_sqm": "12030.70",
+      "transaction_count": 49
+    },
+    {
+      "town_name": "CENTRAL AREA",
+      "flat_type": "4 ROOM",
+      "avg_price_per_sqm": "10476.05",
+      "transaction_count": 175
+    },
+    {
+      "town_name": "QUEENSTOWN",
+      "flat_type": "4 ROOM",
+      "avg_price_per_sqm": "9950.59",
+      "transaction_count": 623
+    },
+    {
+      "town_name": "QUEENSTOWN",
+      "flat_type": "5 ROOM",
+      "avg_price_per_sqm": "9208.59",
+      "transaction_count": 145
+    },
+    {
+      "town_name": "BUKIT MERAH",
+      "flat_type": "4 ROOM",
+      "avg_price_per_sqm": "9178.51",
+      "transaction_count": 979
+    },
+    {
+      "town_name": "TOA PAYOH",
+      "flat_type": "4 ROOM",
+      "avg_price_per_sqm": "9067.03",
+      "transaction_count": 737
+    },
+    {
+      "town_name": "KALLANG/WHAMPOA",
+      "flat_type": "4 ROOM",
+      "avg_price_per_sqm": "8914.13",
+      "transaction_count": 784
+    },
+    {
+      "town_name": "BUKIT TIMAH",
+      "flat_type": "5 ROOM",
+      "avg_price_per_sqm": "8813.91",
+      "transaction_count": 36
+    },
+    {
+      "town_name": "BUKIT MERAH",
+      "flat_type": "5 ROOM",
+      "avg_price_per_sqm": "8509.77",
+      "transaction_count": 420
+    },
+    {
+      "town_name": "TOA PAYOH",
+      "flat_type": "5 ROOM",
+      "avg_price_per_sqm": "8467.83",
+      "transaction_count": 316
+    },
+    {
+      "town_name": "CLEMENTI",
+      "flat_type": "5 ROOM",
+      "avg_price_per_sqm": "8103.72",
+      "transaction_count": 180
+    },
+    {
+      "town_name": "BISHAN",
+      "flat_type": "5 ROOM",
+      "avg_price_per_sqm": "8068.54",
+      "transaction_count": 254
+    },
+    {
+      "town_name": "CLEMENTI",
+      "flat_type": "4 ROOM",
+      "avg_price_per_sqm": "8053.26",
+      "transaction_count": 505
+    },
+    {
+      "town_name": "KALLANG/WHAMPOA",
+      "flat_type": "5 ROOM",
+      "avg_price_per_sqm": "7983.32",
+      "transaction_count": 264
+    },
+    {
+      "town_name": "BUKIT TIMAH",
+      "flat_type": "4 ROOM",
+      "avg_price_per_sqm": "7766.60",
+      "transaction_count": 46
+    },
+    {
+      "town_name": "GEYLANG",
+      "flat_type": "4 ROOM",
+      "avg_price_per_sqm": "7763.79",
+      "transaction_count": 583
+    },
+    {
+      "town_name": "BISHAN",
+      "flat_type": "4 ROOM",
+      "avg_price_per_sqm": "7604.53",
+      "transaction_count": 457
+    },
+    {
+      "town_name": "MARINE PARADE",
+      "flat_type": "5 ROOM",
+      "avg_price_per_sqm": "7570.67",
+      "transaction_count": 79
+    },
+    {
+      "town_name": "ANG MO KIO",
+      "flat_type": "5 ROOM",
+      "avg_price_per_sqm": "7363.31",
+      "transaction_count": 309
+    },
+    {
+      "town_name": "ANG MO KIO",
+      "flat_type": "4 ROOM",
+      "avg_price_per_sqm": "7116.40",
+      "transaction_count": 744
+    },
+    {
+      "town_name": "MARINE PARADE",
+      "flat_type": "4 ROOM",
+      "avg_price_per_sqm": "7044.03",
+      "transaction_count": 76
+    },
+    {
+      "town_name": "GEYLANG",
+      "flat_type": "5 ROOM",
+      "avg_price_per_sqm": "6946.37",
+      "transaction_count": 159
+    },
+    {
+      "town_name": "PUNGGOL",
+      "flat_type": "4 ROOM",
+      "avg_price_per_sqm": "6863.12",
+      "transaction_count": 2270
+    },
+    {
+      "town_name": "SERANGOON",
+      "flat_type": "4 ROOM",
+      "avg_price_per_sqm": "6722.22",
+      "transaction_count": 467
+    },
+    {
+      "town_name": "BUKIT BATOK",
+      "flat_type": "5 ROOM",
+      "avg_price_per_sqm": "6634.37",
+      "transaction_count": 662
+    },
+    {
+      "town_name": "SENGKANG",
+      "flat_type": "4 ROOM",
+      "avg_price_per_sqm": "6631.74",
+      "transaction_count": 2383
+    },
+    {
+      "town_name": "TAMPINES",
+      "flat_type": "4 ROOM",
+      "avg_price_per_sqm": "6555.88",
+      "transaction_count": 1974
+    },
+    {
+      "town_name": "BEDOK",
+      "flat_type": "4 ROOM",
+      "avg_price_per_sqm": "6529.80",
+      "transaction_count": 1085
+    },
+    {
+      "town_name": "PUNGGOL",
+      "flat_type": "5 ROOM",
+      "avg_price_per_sqm": "6407.21",
+      "transaction_count": 1350
+    },
+    {
+      "town_name": "TAMPINES",
+      "flat_type": "5 ROOM",
+      "avg_price_per_sqm": "6354.29",
+      "transaction_count": 1149
+    },
+    {
+      "town_name": "SERANGOON",
+      "flat_type": "5 ROOM",
+      "avg_price_per_sqm": "6336.04",
+      "transaction_count": 173
+    },
+    {
+      "town_name": "BUKIT BATOK",
+      "flat_type": "4 ROOM",
+      "avg_price_per_sqm": "6327.45",
+      "transaction_count": 1604
+    },
+    {
+      "town_name": "SEMBAWANG",
+      "flat_type": "4 ROOM",
+      "avg_price_per_sqm": "6293.15",
+      "transaction_count": 1264
+    },
+    {
+      "town_name": "BEDOK",
+      "flat_type": "5 ROOM",
+      "avg_price_per_sqm": "6212.32",
+      "transaction_count": 498
+    },
+    {
+      "town_name": "HOUGANG",
+      "flat_type": "4 ROOM",
+      "avg_price_per_sqm": "6169.23",
+      "transaction_count": 1558
+    },
+    {
+      "town_name": "HOUGANG",
+      "flat_type": "5 ROOM",
+      "avg_price_per_sqm": "6125.38",
+      "transaction_count": 622
+    },
+    {
+      "town_name": "SENGKANG",
+      "flat_type": "5 ROOM",
+      "avg_price_per_sqm": "6062.39",
+      "transaction_count": 1616
+    },
+    {
+      "town_name": "PASIR RIS",
+      "flat_type": "4 ROOM",
+      "avg_price_per_sqm": "5901.15",
+      "transaction_count": 638
+    },
+    {
+      "town_name": "BUKIT PANJANG",
+      "flat_type": "5 ROOM",
+      "avg_price_per_sqm": "5860.36",
+      "transaction_count": 551
+    },
+    {
+      "town_name": "BUKIT PANJANG",
+      "flat_type": "4 ROOM",
+      "avg_price_per_sqm": "5784.06",
+      "transaction_count": 916
+    },
+    {
+      "town_name": "YISHUN",
+      "flat_type": "5 ROOM",
+      "avg_price_per_sqm": "5783.04",
+      "transaction_count": 715
+    },
+    {
+      "town_name": "SEMBAWANG",
+      "flat_type": "5 ROOM",
+      "avg_price_per_sqm": "5757.70",
+      "transaction_count": 672
+    },
+    {
+      "town_name": "YISHUN",
+      "flat_type": "4 ROOM",
+      "avg_price_per_sqm": "5728.04",
+      "transaction_count": 2064
+    },
+    {
+      "town_name": "PASIR RIS",
+      "flat_type": "5 ROOM",
+      "avg_price_per_sqm": "5648.20",
+      "transaction_count": 449
+    },
+    {
+      "town_name": "WOODLANDS",
+      "flat_type": "4 ROOM",
+      "avg_price_per_sqm": "5531.70",
+      "transaction_count": 2154
+    },
+    {
+      "town_name": "JURONG EAST",
+      "flat_type": "4 ROOM",
+      "avg_price_per_sqm": "5499.22",
+      "transaction_count": 366
+    },
+    {
+      "town_name": "JURONG EAST",
+      "flat_type": "5 ROOM",
+      "avg_price_per_sqm": "5480.43",
+      "transaction_count": 255
+    },
+    {
+      "town_name": "JURONG WEST",
+      "flat_type": "4 ROOM",
+      "avg_price_per_sqm": "5407.28",
+      "transaction_count": 1552
+    },
+    {
+      "town_name": "WOODLANDS",
+      "flat_type": "5 ROOM",
+      "avg_price_per_sqm": "5339.89",
+      "transaction_count": 1379
+    },
+    {
+      "town_name": "CHOA CHU KANG",
+      "flat_type": "4 ROOM",
+      "avg_price_per_sqm": "5323.72",
+      "transaction_count": 1378
+    },
+    {
+      "town_name": "JURONG WEST",
+      "flat_type": "5 ROOM",
+      "avg_price_per_sqm": "5291.70",
+      "transaction_count": 1201
+    },
+    {
+      "town_name": "CHOA CHU KANG",
+      "flat_type": "5 ROOM",
+      "avg_price_per_sqm": "5289.67",
+      "transaction_count": 904
+    }
+  ],
+  "fields": [
+    {
+      "name": "town_name",
+      "dataTypeID": 1043
+    },
+    {
+      "name": "flat_type",
+      "dataTypeID": 1043
+    },
+    {
+      "name": "avg_price_per_sqm",
+      "dataTypeID": 1700
+    },
+    {
+      "name": "transaction_count",
+      "dataTypeID": 20
+    }
+  ],
+  "command": "SELECT",
+  "affectedRows": 0,
+  "rowCount": 52
+}

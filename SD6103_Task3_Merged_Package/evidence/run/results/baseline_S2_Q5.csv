@@ -1,0 +1,11 @@
+town_name,proximity_class,avg_resale_price,transaction_count
+"BUKIT TIMAH","near","897336.80","71"
+"BISHAN","medium","851645.86","367"
+"BISHAN","far","821810.73","483"
+"CENTRAL AREA","near","821614.26","171"
+"CENTRAL AREA","medium","799271.52","186"
+"CENTRAL AREA","far","768848.57","208"
+"BUKIT MERAH","near","736214.53","1033"
+"BUKIT MERAH","far","732351.88","1154"
+"BUKIT MERAH","medium","718613.18","953"
+"QUEENSTOWN","far","701382.18","746"
