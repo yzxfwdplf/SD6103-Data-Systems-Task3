@@ -1,0 +1,209 @@
+\documentclass[11pt,a4paper]{article}
+\usepackage[margin=23mm]{geometry}
+\usepackage[T1]{fontenc}
+\usepackage{lmodern}
+\usepackage{booktabs,graphicx,listings,xcolor,float,caption,amsmath,needspace}
+\usepackage[hidelinks]{hyperref}
+\hypersetup{pdftitle={SD6103 Task 3: January 2023 - December 2025},pdfauthor={Transcend Self}}
+\definecolor{codebg}{rgb}{0.97,0.97,0.97}
+\definecolor{codeframe}{rgb}{0.75,0.75,0.75}
+\lstset{language=SQL,basicstyle=\ttfamily\fontsize{9}{10.96}\selectfont,
+ keywordstyle=\color{blue!70!black},stringstyle=\color{red!55!black},
+ commentstyle=\color{gray},backgroundcolor=\color{codebg},rulecolor=\color{codeframe},
+ frame=single,framerule=0.35pt,framesep=3pt,breaklines=true,breakatwhitespace=false,
+ columns=fullflexible,keepspaces=true,showstringspaces=false,upquote=true,tabsize=4,
+ aboveskip=7pt,belowskip=9pt,morekeywords={FILTER,WITHIN,EXTRACT,TRUE,FALSE,IS,NULLIF}}
+\captionsetup{font=small,skip=7pt}
+\setlength{\parindent}{0pt}
+\setlength{\parskip}{5pt}
+\setlength{\textfloatsep}{12pt}
+\setlength{\intextsep}{12pt}
+\clubpenalty=10000
+\widowpenalty=10000
+\raggedbottom
+\setcounter{section}{3}
+\begin{document}
+\section{Task 3: Queries and Results}
+\begin{samepage}All six queries use one common housing-transaction scope: \textbf{1 January 2023 to 31 December 2025}, three complete calendar years and 36 months. The five base relations follow the final ER naming: \texttt{town}, \texttt{hdb\_flat}, \texttt{resale\_transaction}, \texttt{hawker\_centre}, and \texttt{nearby}. An HDB-flat record represents a geocoded block address, rather than an individually identified housing unit. The executable SQL includes explanatory trailing comments.\par\end{samepage}
+
+\Needspace{10\baselineskip}\subsection{Derived proximity view and data scope}
+\begin{samepage}All queries use a lower bound of \texttt{2023-01-01} (inclusive) and an upper bound of \texttt{2026-01-01} (exclusive). The next-year boundary includes every month through December 2025. The same bounds appear in every query and in a table check constraint. Both stages of Q3 use the same period. All 36 calendar months are present; no matched transaction in this instance falls outside that interval.\par\end{samepage}
+
+\begin{samepage}The \texttt{nearby\_classified} view derives near [0,500), medium [500,1000), and far [1000,2000] metres from stored great-circle distance. The final upper bound is inclusive. A numeric proximity rank preserves logical order. The view is not a sixth base relation. Coordinates and hawker attributes remain the supplied reference snapshots, not historical reconstructions for each sale date.\par\end{samepage}
+
+\lstinputlisting{../sql/02_view.sql}
+\begin{table}[H]\centering\small
+\begin{tabular}{lrl}
+\toprule
+Measure & Value & Definition \\
+\midrule
+Raw sales in the selected period & 78,670 & January 2023 - December 2025 \\
+Matched transactions & 78,670 & No in-period geocode exclusions \\
+hdb\_flat records & 9,385 & Participating block-address records \\
+Hawker centres & 129 & 81 yes, 23 no, 25 unknown \\
+nearby links & 40,354 & Retained pairs at or below 2,000 m \\
+Observed sale months & 36 & January 2023 - December 2025 \\
+\bottomrule
+\end{tabular}
+\caption{Database instance used for all six queries; only 2023-2025 transactions are included.}
+\end{table}
+\begin{samepage}All numerical results were executed in PostgreSQL 18.6 through PGlite 0.5.10 (WebAssembly), then independently recomputed with pandas. Figures 1--6 show actual result exports in an offline viewer; they are not pgAdmin captures. Prices are nominal SGD. Native PostgreSQL timings and genuine pgAdmin captures are not established by this run. The project guide requires approval for alternative tools; such approval has not been established here.\par\end{samepage}
+
+\Needspace{10\baselineskip}\subsection{Q1: Price per square metre across towns}
+\begin{samepage}The query selects 4 ROOM and 5 ROOM transactions from January 2023 through December 2025, then averages each sale's resale price divided by floor area. Each transaction has equal weight; the measure is not total price divided by total area. The result contains 52 town/type groups and 52,280 qualifying sales.\par\end{samepage}
+
+\Needspace{7\baselineskip}\lstinputlisting{../sql/Q1.sql}
+\begin{table}[H]\centering\small
+\begin{tabular}{llrr}
+\toprule
+Town & Type & Mean SGD/m2 & Sales \\
+\midrule
+Central Area & 5 ROOM & 11,680.14 & 60 \\
+Central Area & 4 ROOM & 10,714.41 & 211 \\
+Queenstown & 4 ROOM & 9,944.81 & 784 \\
+Queenstown & 5 ROOM & 9,254.12 & 186 \\
+\bottomrule
+\end{tabular}
+\caption{Q1: four highest of 52 groups, January 2023 - December 2025.}
+\end{table}
+\begin{figure}[H]\centering
+\includegraphics[width=0.94\linewidth,height=8.6cm,keepaspectratio]{../evidence/figures/Q1_result.png}
+\caption{Q1 result excerpt: first ten of 52 groups in SQL output order; scope 2023-2025.}\end{figure}
+\begin{samepage}\textbf{Insight.} Central Area 5 ROOM has the highest mean at SGD 11,680.14/m2 (60 sales), followed by Central Area 4 ROOM at SGD 10,714.41/m2. This describes the selected three-year period. Lease, floor, flat model and building composition remain uncontrolled, so the ranking is not a causal measure of town value.\par\end{samepage}
+
+\Needspace{10\baselineskip}\subsection{Q2: Remaining lease and transaction price}
+\begin{samepage}Each in-period sale enters one disjoint bucket: below 600 months, 600 to below 840 months, or at least 840 months. For each town/bucket, the query returns the continuous median price, mean price per square metre and volume. The 62 output groups partition all 78,670 transactions. Bucket order is numerical, rather than alphabetical.\par\end{samepage}
+
+\Needspace{7\baselineskip}\lstinputlisting{../sql/Q2.sql}
+\begin{table}[H]\centering\small
+\begin{tabular}{llrrr}
+\toprule
+Town & Lease bucket & Median SGD & Mean SGD/m2 & Sales \\
+\midrule
+Ang Mo Kio & < 50 years & 436,944.00 & 5,995.75 & 14 \\
+Ang Mo Kio & 50 to < 70 years & 438,888.00 & 5,869.39 & 2,428 \\
+Ang Mo Kio & 70+ years & 900,000.00 & 9,280.82 & 634 \\
+\bottomrule
+\end{tabular}
+\caption{Q2: Ang Mo Kio excerpt from 62 groups, using only 2023-2025 sales.}
+\end{table}
+\begin{figure}[H]\centering
+\includegraphics[width=0.94\linewidth,height=8.6cm,keepaspectratio]{../evidence/figures/Q2_result.png}
+\caption{Q2 result excerpt: first ten of 62 town/bucket groups, 2023-2025.}\end{figure}
+\begin{samepage}\textbf{Insight.} In Ang Mo Kio, the 70+ years group has a median of SGD 900,000 across 634 sales, compared with SGD 438,888 across 2,428 sales in the 50 to below 70 years group. The below-50 group has only 14 sales and a median of SGD 436,944, so its estimate is particularly sensitive to sample composition. Restricting the sale years reduces the earlier historical-price mixing, but differences in flat type, floor area and building cohort remain. The comparison does not isolate a lease effect.\par\end{samepage}
+
+\Needspace{10\baselineskip}\subsection{Q3: Towns with large 3-room flats}
+\begin{samepage}The CTE ranks towns by the transaction-weighted mean area of 3 ROOM sales in 2023-2025 and selects ten, with town ID as a tie-break. The outer query keeps the same room type and date bounds, then finds each town's maximum price per calendar year. All three years are complete; the output contains 30 town/year groups.\par\end{samepage}
+
+\Needspace{7\baselineskip}\lstinputlisting{../sql/Q3.sql}
+\begin{table}[H]\centering\small
+\begin{tabular}{rlrr}
+\toprule
+Rank & Town & Mean area m2 & 2025 maximum SGD \\
+\midrule
+1 & Tampines & 71.24 & 698,000.00 \\
+2 & Ang Mo Kio & 71.01 & 794,500.00 \\
+3 & Bukit Timah & 70.94 & 602,888.00 \\
+4 & Jurong East & 70.51 & 558,000.00 \\
+5 & Bukit Panjang & 70.37 & 548,888.00 \\
+6 & Choa Chu Kang & 69.81 & 530,000.00 \\
+7 & Clementi & 69.32 & 740,188.00 \\
+8 & Yishun & 68.84 & 620,000.00 \\
+9 & Woodlands & 68.71 & 588,000.00 \\
+10 & Hougang & 68.32 & 640,000.00 \\
+\bottomrule
+\end{tabular}
+\caption{Q3: ten selected towns and their complete-calendar-2025 maxima.}
+\end{table}
+\begin{figure}[H]\centering
+\includegraphics[width=0.94\linewidth,height=8.6cm,keepaspectratio]{../evidence/figures/Q3_result.png}
+\caption{Q3 result excerpt from 30 rows: ten towns and three complete calendar years.}\end{figure}
+\begin{samepage}\textbf{Insight.} Tampines ranks first with a mean 3 ROOM area of 71.24 m2. The largest annual maximum among selected towns is Clementi in 2024, at SGD 840,000.00. Mean area and maximum price describe different features of the population. A yearly maximum is an exceptional sale, rather than a typical price.\par\end{samepage}
+
+\Needspace{10\baselineskip}\subsection{Q4: Hawker-centre proximity effect}
+\begin{samepage}DISTINCT ON selects each address's nearest stored hawker, breaking distance ties by hawker ID. The query compares near and far sales within the same town and flat type. It computes (mean near - mean far) x 100 / mean far before rounding, retaining groups with both populations. The 160 addresses with no retained centre within 2 km, covering 1,338 sales, are excluded rather than assigned to far. There are 73 comparable groups.\par\end{samepage}
+
+\Needspace{7\baselineskip}\lstinputlisting{../sql/Q4.sql}
+\begin{table}[H]\centering\small
+\begin{tabular}{llrrr}
+\toprule
+Town & Type & Near SGD & Far SGD & Diff. pct \\
+\midrule
+Kallang/Whampoa & 4 ROOM & 860,820.60 & 575,672.00 & 49.53 \\
+Geylang & 4 ROOM & 789,293.64 & 565,056.25 & 39.68 \\
+Geylang & 5 ROOM & 867,796.36 & 640,000.00 & 35.59 \\
+Toa Payoh & 5 ROOM & 1,010,254.57 & 749,398.00 & 34.81 \\
+Toa Payoh & 4 ROOM & 853,958.44 & 645,219.03 & 32.35 \\
+\bottomrule
+\end{tabular}
+\caption{Q4: five largest differences among 73 comparable groups, 2023-2025.}
+\end{table}
+\begin{figure}[H]\centering
+\includegraphics[width=0.94\linewidth,height=8.6cm,keepaspectratio]{../evidence/figures/Q4_result.png}
+\caption{Q4 result excerpt: first ten of 73 groups by percentage difference.}\end{figure}
+\begin{samepage}\textbf{Insight.} Kallang/Whampoa 4 ROOM has the largest positive difference: near SGD 860,820.60, far SGD 575,672.00, or 49.53\%. Across the 73 groups, 41 differences are positive and 32 negative. The mixed signs do not support a universal near-hawker premium. Housing mix, lease and other neighbourhood amenities remain potential confounders.\par\end{samepage}
+
+\Needspace{10\baselineskip}\subsection{Q5: Prices near hawkers with fresh-market stalls}
+\begin{samepage}An address qualifies for a class when it has at least one hawker with a positive fresh-market stall count in that class. Unknown status is excluded. The CTE makes each address/class pair unique before joining sales, so several qualifying centres do not multiply a sale within a group. The budget is fixed at \textbf{SGD 700,000} before timing and is unchanged across all five sizes. This three-year sample gives 11 passing town/class groups from 5 of 22 eligible towns. SGD 350,000 would select all 22 eligible towns in this sample.\par\end{samepage}
+
+\Needspace{7\baselineskip}\lstinputlisting{../sql/Q5.sql}
+\begin{table}[H]\centering\small
+\begin{tabular}{llrr}
+\toprule
+Town & Class & Mean SGD & Sales \\
+\midrule
+Bukit Timah & near & 897,986.20 & 162 \\
+Bishan & medium & 848,219.63 & 886 \\
+Bishan & far & 823,020.47 & 1,138 \\
+Central Area & near & 805,810.01 & 450 \\
+Central Area & medium & 787,059.31 & 495 \\
+Central Area & far & 760,729.39 & 546 \\
+Bukit Merah & near & 731,309.10 & 2,656 \\
+Bukit Merah & far & 728,198.21 & 2,957 \\
+Bukit Merah & medium & 717,838.37 & 2,424 \\
+Queenstown & far & 712,094.01 & 1,902 \\
+Queenstown & medium & 704,915.90 & 1,805 \\
+\bottomrule
+\end{tabular}
+\caption{Q5: all 11 groups above the fixed SGD 700,000 budget, 2023-2025.}
+\end{table}
+\begin{table}[H]\centering\small
+\begin{tabular}{lrrr}
+\toprule
+Size & Eligible towns & Passing towns & Groups \\
+\midrule
+S1 & 22 & 4 & 9 \\
+S2 & 22 & 5 & 10 \\
+S3 & 22 & 5 & 11 \\
+S4 & 22 & 5 & 10 \\
+S5 & 22 & 5 & 11 \\
+\bottomrule
+\end{tabular}
+\caption{Q5: every measured size is nonempty and selects fewer than all eligible towns.}
+\end{table}
+\begin{figure}[H]\centering
+\includegraphics[width=0.94\linewidth,height=8.6cm,keepaspectratio]{../evidence/figures/Q5_result.png}
+\caption{Q5 result excerpt: first ten of 11 passing groups, 2023-2025.}\end{figure}
+\begin{samepage}\textbf{Insight.} Bukit Timah near has the highest passing mean, SGD 897,986.20, while Bishan medium and far also exceed SGD 800,000. High-price groups occur in different bands. A sale can belong to more than one class; group volumes therefore cannot be added to obtain a unique-sale total.\par\end{samepage}
+
+\Needspace{10\baselineskip}\subsection{Q6: All-relation join}
+\begin{samepage}The additional question asks how address coverage, transaction volume and mean price differ by town, distance band and fresh-market status. All five base relations participate; nearby is read through its classified view. Unique address/class/status memberships are formed before transactions are joined. The result contains 154 groups, including 57 groups with unknown market status. An address or sale may occur in several different groups, but only once within each group.\par\end{samepage}
+
+\Needspace{7\baselineskip}\lstinputlisting{../sql/Q6.sql}
+\begin{table}[H]\centering\small
+\begin{tabular}{lllrrr}
+\toprule
+Town & Class & Status & Addresses & Sales & Mean SGD \\
+\midrule
+Bukit Batok & near & unknown & 49 & 1,598 & 605,640.12 \\
+Bukit Batok & medium & unknown & 112 & 801 & 563,789.31 \\
+Bukit Batok & far & unknown & 225 & 1,988 & 572,255.17 \\
+\bottomrule
+\end{tabular}
+\caption{Q6: Bukit Batok / unknown, all three distance groups within 2023-2025.}
+\end{table}
+\begin{figure}[H]\centering
+\includegraphics[width=0.94\linewidth,height=8.6cm,keepaspectratio]{../evidence/figures/Q6_result.png}
+\caption{Q6 filtered excerpt: the same Bukit Batok / unknown groups shown in the table.}\end{figure}
+\begin{samepage}\textbf{Insight.} Bukit Batok near/unknown contains 49 participating addresses and 1,598 sales, with mean SGD 605,640.12. Treating unknown as confirmed no would mislabel this population. Q6 pools all room types and accepts any matching centre in the band; Q4 uses a single nearest centre and separates room types. Their means therefore describe different populations, even with the same three-year date filter.\par\end{samepage}
+
