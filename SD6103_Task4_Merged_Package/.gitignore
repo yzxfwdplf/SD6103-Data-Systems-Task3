@@ -1,0 +1,9 @@
+node_modules/
+.venv/
+__pycache__/
+*.pyc
+.env
+*.pgpass
+report/*.aux
+report/*.log
+report/*.out

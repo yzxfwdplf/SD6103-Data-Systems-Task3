@@ -1,0 +1,10 @@
+{
+  "private": true,
+  "type": "module",
+  "dependencies": {
+    "@electric-sql/pglite": "0.5.10"
+  },
+  "scripts": {
+    "benchmark": "node scripts/run_wasm.mjs"
+  }
+}
